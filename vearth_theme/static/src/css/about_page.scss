@@ -1,0 +1,229 @@
+/* ================= GLOBAL ================= */
+
+.section-title{
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.scroll-animate{
+    padding:70px 0;
+    opacity:0;
+    transform:translateY(40px);
+    transition:.7s ease;
+}
+
+.scroll-animate.active{
+    opacity:1;
+    transform:none;
+}
+
+
+/* ================= HERO ================= */
+
+.landing-container{
+    position:relative;
+    height:60vh;
+    min-height:420px;
+    overflow:hidden;
+
+}
+
+.landing-container video{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.hero-overlay{
+    position:relative;
+    height:100%;
+    background:rgba(0,0,0,.45);
+    display:flex;
+    align-items:center;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about-section{
+    background:#f8f9fa;
+}
+
+
+/* ================= MISSION ================= */
+
+.mission-section{
+    background:#ffffff;
+}
+
+.mission-img{
+    max-height:320px;
+    object-fit:contain;
+}
+
+
+/* ================= VISION ================= */
+
+.vision-section{
+    background:#f7faf9;
+}
+
+.vm-card{
+    background:#fff;
+    padding:35px;
+    border-radius:14px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+    height:100%;
+}
+
+
+/* ================= FOUNDER ================= */
+
+.founder-section{
+    position:relative;
+    padding:90px 0;
+    color:#fff;
+    overflow:hidden;
+}
+
+.founder-video{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:.35;
+}
+
+.founder-overlay{
+    position:relative;
+}
+
+.founder-content{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    background-color:#010500a3;
+}
+
+.founder-photo{
+    width:180px;
+    border-radius:12px;
+}
+
+.founder-quote{
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+
+/* ================= PROMISE ================= */
+
+.promise-section{
+    background:#07581da1;
+    color:#212529;
+    padding:60px 0;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media(max-width:768px){
+
+    .founder-content{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .landing-container{
+        height:50vh;
+    }
+}
+
+
+
+/* ================= DARK MODE - ABOUT SECTIONS ================= */
+
+/* ===== MISSION ===== */
+body.dark-mode .mission-section {
+    background: #020617;
+}
+
+body.dark-mode .mission-section h2,
+body.dark-mode .mission-section p {
+    color: #e2e8f0;
+}
+
+
+/* ===== VISION ===== */
+body.dark-mode .vision-section {
+    background: #020617;
+}
+
+body.dark-mode .vm-card {
+    background: rgba(15,23,42,0.7);
+    border: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+body.dark-mode .vm-card h3 {
+    color: #22c55e;
+}
+
+body.dark-mode .vm-card p {
+    color: #cbd5f5;
+}
+
+
+/* ===== FOUNDER SECTION ===== */
+body.dark-mode .founder-section {
+    background: #000;
+}
+
+/* overlay stronger in dark */
+body.dark-mode .founder-overlay {
+    background: rgba(0,0,0,0.7);
+}
+
+/* text */
+body.dark-mode .founder-quote {
+    color: #e2e8f0;
+}
+
+body.dark-mode .founder-content h4 {
+    color: #22c55e;
+}
+
+body.dark-mode .founder-content small {
+    color: #94a3b8;
+}
+
+
+/* ===== PROMISE ===== */
+body.dark-mode .promise-section {
+    background: linear-gradient(135deg,#020617,#0f172a);
+}
+
+body.dark-mode .promise-section h3 {
+    color: #22c55e;
+}
+
+body.dark-mode .promise-section p {
+    color: #cbd5f5;
+}
+
+
+/* ===== GLOBAL FIX (IMPORTANT) ===== */
+body.dark-mode .mission-section *,
+body.dark-mode .vision-section *,
+body.dark-mode .founder-section *,
+body.dark-mode .promise-section * {
+    color: inherit;
+}
+
+body.dark-mode .vm-card:hover {
+    box-shadow: 0 20px 60px rgba(34,197,94,0.25);
+    transform: translateY(-6px);
+}

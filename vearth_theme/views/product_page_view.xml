@@ -1,0 +1,2237 @@
+<odoo>
+        <template id="vearth_product_page"  name="Product">
+            <t t-call="website.template_header_hamburger">
+                <div class="categories-page">
+
+
+                    <!-- ================= SIDEBAR NAVIGATION ================= -->
+                    <div class="product-sidebar">
+                        <button class="sidebar-toggle" id="sidebarToggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <nav class="sidebar-nav">
+                            <div class="sidebar-header">
+                                <h3>Sections</h3>
+                            </div>
+                            <ul class="sidebar-menu">
+                                <li><a href="#beverages" class="sidebar-link" data-section="beverages">🥤 Beverages</a></li>
+                                <li><a href="#solutions" class="sidebar-link" data-section="solutions">💊 Solutions</a></li>
+                                <li><a href="#weight" class="sidebar-link" data-section="weight">⚖️ Weight Management</a></li>
+                                <li><a href="#preworkout" class="sidebar-link" data-section="preworkout">💪 Pre-Workout</a></li>
+                                <li><a href="#postworkout" class="sidebar-link" data-section="postworkout">🏋️ Post-Workout</a></li>
+                                <li><a href="#skin" class="sidebar-link" data-section="skin">✨ Skin Care</a></li>
+                                <li><a href="#hair" class="sidebar-link" data-section="hair">💇 Hair Care</a></li>
+                                <li><a href="#kids" class="sidebar-link" data-section="kids">👶 Kids Nutrition</a></li>
+                                <li><a href="#anemia" class="sidebar-link" data-section="anemia">🩸 Anemia Support</a></li>
+                                <li><a href="#women" class="sidebar-link" data-section="women">👩 Women Care</a></li>
+                                <li><a href="#pregnancy" class="sidebar-link" data-section="pregnancy">🤰 Pregnancy</a></li>
+                                <li><a href="#pcos" class="sidebar-link" data-section="pcos">💜 PCOS Care</a></li>
+                                <li><a href="#general" class="sidebar-link" data-section="general">❤️ General Wellness</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="product-content">
+                   <section id="beverages" class="product-section scroll-animate">
+    <div class="container">
+
+        <h2 class="section-title text-center">
+            Functional Beverage Formulations
+        </h2>
+
+        <div class="product-grid">
+
+            <!-- ================= GINGER ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Ginger</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/ginger_flavor.jpg"/>
+                </div>
+
+                <span class="product-type">Powder</span>
+
+                <ul class="composition-list">
+                    <li>Coffee Arabica <span>100mg</span></li>
+                    <li>Green Tea <span>100mg</span></li>
+                    <li>Ginseng <span>50mg</span></li>
+                    <li class="highlight">Ginger <span>100mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= TULSI ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Tulsi Mint</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/tulsi_mint.jpg"/>
+                </div>
+
+                <span class="product-type">Powder</span>
+
+                <ul class="composition-list">
+                    <li>Coffee Arabica <span>100mg</span></li>
+                    <li>Green Tea <span>100mg</span></li>
+                    <li>Ginseng <span>50mg</span></li>
+                    <li class="highlight">Tulsi <span>100mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= LEMON ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Lemon</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/lemon.jpg"/>
+                </div>
+
+                <span class="product-type">Powder</span>
+
+                <ul class="composition-list">
+                    <li>Coffee Arabica <span>100mg</span></li>
+                    <li>Green Tea <span>100mg</span></li>
+                    <li>Ginseng <span>50mg</span></li>
+                    <li class="highlight">Lemon <span>100mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= CARDAMOM ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Cardamom</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/cardamom.jpg"/>
+                </div>
+
+                <span class="product-type">Powder</span>
+
+                <ul class="composition-list">
+                    <li>Coffee Arabica <span>100mg</span></li>
+                    <li>Green Tea <span>100mg</span></li>
+                    <li>Ginseng <span>50mg</span></li>
+                    <li class="highlight">Cardamom <span>100mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= KAHWA ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Kashmiri Kahwa with Honey</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/kahwa.jpg"/>
+                </div>
+
+                <span class="product-type">Powder</span>
+
+                <ul class="composition-list">
+                    <li>Coffee Arabica <span>100mg</span></li>
+                    <li>Green Tea <span>100mg</span></li>
+                    <li>Ginseng <span>50mg</span></li>
+                    <li class="highlight">Kahwa <span>50mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= CINNAMON ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Cinnamon</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/cinnamon.jpg"/>
+                </div>
+
+                <span class="product-type">Powder</span>
+
+                <ul class="composition-list">
+                    <li>Coffee Arabica <span>100mg</span></li>
+                    <li>Green Tea <span>100mg</span></li>
+                    <li>Ginseng <span>50mg</span></li>
+                    <li class="highlight">Cinnamon <span>20mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+                   <section id="solutions" class="product-section scroll-animate">
+
+                        <div class="container">
+
+                            <h2 class="section-title text-center">
+                                Product Solutions
+                            </h2>
+
+                            <div class="product-grid">
+
+                                <!-- ================= NUTRITIONAL SHAKE ================= -->
+                                <div class="product-card">
+
+                                    <h4 class="product-title">Nutritional Shake</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/nutritional_shake.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachets • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li><strong>Protein</strong><span>9 gm</span></li>
+                                        <li><strong>Carbohydrates</strong><span>10 gm</span></li>
+                                        <li><strong>Dietary Fiber</strong><span>3 gm</span></li>
+                                        <li><strong>Fat</strong><span>1.8 gm</span></li>
+                                        <li><strong>Psyllium husk</strong><span>30 gm</span></li>
+                                        <li><strong>Ginger root extract</strong><span>20 gm</span></li>
+                                        <li><strong>All vitamins &amp; minerals</strong></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+
+                                </div>
+
+
+                                <!-- ================= SHAKE MIX ================= -->
+                                <div class="product-card">
+
+                                    <h4 class="product-title">Shake Mix</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/shake_mix.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachets • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li><strong>Protein</strong><span>5 gm</span></li>
+                                        <li><strong>Carbohydrates</strong><span>0.8 gm</span></li>
+                                        <li><strong>Fat</strong><span>0.06 gm</span></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+
+                                </div>
+
+
+                                <!-- ================= MILK BASED ================= -->
+                                <div class="product-card">
+
+                                    <h4 class="product-title">Shake Mix (Milk Based)</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/milk_shake.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachets • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li><strong>Protein</strong><span>10 gm</span></li>
+                                        <li><strong>Carbohydrates</strong><span>15 gm</span></li>
+                                        <li><strong>Fat</strong><span>0.8 gm</span></li>
+                                        <li><strong>Calcium</strong><span>130 mg</span></li>
+                                        <li><strong>Vitamin D3</strong><span>1.65 mcg</span></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+                    <section id="weight" class="product-section scroll-animate">
+
+                        <div class="container">
+
+                            <h2 class="section-title text-center">
+                                Weight Management Formulations
+                            </h2>
+
+                            <div class="product-grid">
+
+                                <!-- ================= HERBAL BLEND ================= -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Herbal Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/weight_herbal.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">1 Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Garcinia Cambogia <span>1000 mg</span></li>
+                                        <li>Cinnamon <span>150 mg</span></li>
+                                        <li>Ginger Extract <span>100 mg</span></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+
+                                <!-- ================= LOW DOSE ================= -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Herbal Blend (Low Dose)</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/weight_herbal2.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">2 Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Garcinia Cambogia <span>500 mg</span></li>
+                                        <li>Cinnamon <span>75 mg</span></li>
+                                        <li>Ginger Extract <span>50 mg</span></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+
+                                <!-- ================= CHROMIUM ================= -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Herbal Blend + Chromium</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/chromium.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">1 Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Garcinia Cambogia <span>500 mg</span></li>
+                                        <li>Black Pepper <span>10 mg</span></li>
+                                        <li>Chromium Picolinate <span>200 mcg</span></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+
+                                <!-- ================= ADVANCED ================= -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Advanced Chromium Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/green_tea_blend.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">1 Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Garcinia Extract <span>500 mg</span></li>
+                                        <li>Green Tea <span>500 mg</span></li>
+                                        <li>Gymnema <span>500 mg</span></li>
+                                        <li>Chromium <span>200 mcg</span></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+
+                                <!-- ================= COFFEE ================= -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Coffee Herbal Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/coffee_weight.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">1 Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Coffee <span>400 mg</span></li>
+                                        <li>Wheatgrass <span>300 mg</span></li>
+                                        <li>Garcinia <span>1000 mg</span></li>
+                                        <li>Cinnamon <span>100 mg</span></li>
+                                        <li>Aloe Vera <span>500 mg</span></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+
+                                <!-- ================= ACV ================= -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Apple Cider Vinegar Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/acv.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">1 Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>ACV <span>500 mg</span></li>
+                                        <li>Pomegranate <span>100 mg</span></li>
+                                        <li>Vitamin B12 <span>2.2 mcg</span></li>
+                                        <li>Vitamin B6 <span>2 mg</span></li>
+                                        <li>Garcinia <span>500 mg</span></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+
+                                <!-- ================= PROBIOTICS ================= -->
+                                <div class="product-card">
+                                    <h4 class="product-title">ACV + Probiotics</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/probiotic.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">1 Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>ACV <span>500 mg</span></li>
+                                        <li>Lactobacillus <span>5 billion</span></li>
+                                        <li>Inulin <span>20 mg</span></li>
+                                        <li>Probiotic Blend</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+
+                                <!-- ================= CARNITINE ================= -->
+                                <div class="product-card">
+                                    <h4 class="product-title">L-Carnitine Tartrate</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/carnitine.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">1 Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>L-Carnitine <span>1000 mg</span></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+
+                                <!-- ================= PROTEIN ================= -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Protein + Herbals</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/protein_weight.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">30 gm • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Protein Blend <span>25 gm</span></li>
+                                        <li>Green Tea <span>500 mg</span></li>
+                                        <li>Garcinia <span>1000 mg</span></li>
+                                        <li>Vitamins &amp; Minerals</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <section id="preworkout" class="product-section scroll-animate">
+
+    <div class="container">
+
+        <h2 class="section-title text-center">
+            Pre-Workout &amp; Performance Blends
+        </h2>
+
+        <div class="product-grid">
+
+            <!-- ================= PREWORKOUT ADVANCED ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Pre-Workout Advanced</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/preworkout1.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+
+                <ul class="composition-list">
+                    <li>L-Citrulline <span>3000 mg</span></li>
+                    <li>L-Leucine <span>1500 mg</span></li>
+                    <li>L-Isoleucine <span>750 mg</span></li>
+                    <li>L-Valine <span>750 mg</span></li>
+                    <li>L-Tyrosine <span>500 mg</span></li>
+                    <li>Taurine <span>500 mg</span></li>
+                    <li>L-Arginine <span>500 mg</span></li>
+                    <li class="highlight">Caffeine <span>50 mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= PREWORKOUT + CREATINE ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Pre-Workout + Creatine</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/preworkout2.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+
+                <ul class="composition-list">
+                    <li>L-Citrulline <span>3000 mg</span></li>
+                    <li>Creatine <span>1000 mg</span></li>
+                    <li>Threonine <span>500 mg</span></li>
+                    <li>Taurine <span>500 mg</span></li>
+                    <li>L-Arginine <span>500 mg</span></li>
+                    <li>L-Tyrosine <span>500 mg</span></li>
+                    <li>Niacin <span>18 mg</span></li>
+                    <li>Piperine <span>20 mg</span></li>
+                    <li class="highlight">Caffeine <span>50 mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= LIGHT ENERGY ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Light Energy Blend</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/preworkout3.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+
+                <ul class="composition-list">
+                    <li>Vitamin B12 <span>1.1 mcg</span></li>
+                    <li>Taurine <span>1000 mg</span></li>
+                    <li>Liquorice Extract <span>50 mg</span></li>
+                    <li class="highlight">Caffeine <span>50 mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= PERFORMANCE BOOST ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Performance Boost Complex</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/preworkout4.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+
+                <ul class="composition-list">
+                    <li>Taurine <span>100 mg</span></li>
+                    <li>Vitamin C <span>65 mg</span></li>
+                    <li>L-Theanine <span>150 mg</span></li>
+                    <li>Choline <span>100 mg</span></li>
+                    <li>Black Pepper Extract <span>5 mg</span></li>
+                    <li>Vitamin B6 <span>1.9 mg</span></li>
+                    <li>Vitamin B12 <span>2.2 mcg</span></li>
+                    <li>Zinc <span>13.2 mg</span></li>
+                    <li class="highlight">Caffeine <span>50 mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= L-ARGININE ================= -->
+            <div class="product-card">
+                <h4 class="product-title">L-Arginine</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/arginine.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+
+                <ul class="composition-list">
+                    <li>L-Arginine <span>2 gm</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= AMINO COMBO ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Amino Acid Combination</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/amino.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+
+                <ul class="composition-list">
+                    <li>L-Arginine <span>1500 mg</span></li>
+                    <li>L-Citrulline <span>1500 mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= HYDRATION ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Hydration Electrolyte Blend</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/hydration.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+
+                <ul class="composition-list">
+                    <li>Sodium <span>440 mg</span></li>
+                    <li>Potassium <span>200 mg</span></li>
+                    <li>Magnesium <span>100 mg</span></li>
+                    <li>Vitamin C <span>40 mg</span></li>
+                    <li>Vitamin D3 <span>300 IU</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= HYDRATION HERBAL ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Hydration with Herbs</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/hydration_herbal.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+
+                <ul class="composition-list">
+                    <li>Sodium <span>200 mg</span></li>
+                    <li>Potassium <span>200 mg</span></li>
+                    <li>Magnesium <span>120 mg</span></li>
+                    <li>Calcium <span>200 mg</span></li>
+                    <li class="highlight">Tulsi <span>250 mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= CAFFEINE ================= -->
+            <div class="product-card">
+                <h4 class="product-title">Natural Caffeine Mix</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/caffeine.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+
+                <ul class="composition-list">
+                    <li class="highlight">Caffeine <span>50 mg</span></li>
+                    <li>Instant Tea / Coffee Base</li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+                    <section id="postworkout" class="product-section scroll-animate">
+
+    <div class="container">
+
+        <h2 class="section-title text-center">
+            Post-Workout &amp; Recovery Nutrition
+        </h2>
+
+        <div class="product-grid">
+
+            <!-- ================= AMINO / RECOVERY ================= -->
+
+            <div class="product-card">
+                <h4 class="product-title">L-Carnitine Tartrate</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/carnitine.jpg"/>
+                </div>
+
+                <span class="product-type">Sachet • Powder</span>
+                <span class="product-tag">Amino &amp; Recovery</span>
+
+                <ul class="composition-list">
+                    <li>L-Carnitine <span>1500 mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <div class="product-card">
+                <h4 class="product-title">L-Carnitine + Arginine</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/arginine.jpg"/>
+                </div>
+
+                <span class="product-type">Sachet • Powder</span>
+                <span class="product-tag">Amino &amp; Recovery</span>
+
+                <ul class="composition-list">
+                    <li>L-Arginine <span>1000 mg</span></li>
+                    <li>L-Carnitine <span>1000 mg</span></li>
+                    <li>Zinc <span>17 mg</span></li>
+                    <li>Vitamin C <span>40 mg</span></li>
+                    <li class="highlight">Caffeine <span>50 mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <div class="product-card">
+                <h4 class="product-title">BCAA</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/bcaa.jpg"/>
+                </div>
+
+                <span class="product-type">Sachet • Powder</span>
+                <span class="product-tag">Amino &amp; Recovery</span>
+
+                <ul class="composition-list">
+                    <li>Leucine <span>2.5 gm</span></li>
+                    <li>Isoleucine <span>1.25 gm</span></li>
+                    <li>Valine <span>1.25 gm</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <div class="product-card">
+                <h4 class="product-title">EAA Complex</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/eaa.jpg"/>
+                </div>
+
+                <span class="product-type">Sachet • Powder</span>
+                <span class="product-tag">Amino &amp; Recovery</span>
+
+                <ul class="composition-list">
+                    <li>Leucine <span>2.7 gm</span></li>
+                    <li>Lysine <span>1.2 gm</span></li>
+                    <li>Isoleucine <span>0.75 gm</span></li>
+                    <li>Valine <span>0.7 gm</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= PROTEIN ================= -->
+
+            <div class="product-card">
+                <h4 class="product-title">Whey Protein Isolate</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/whey.jpg"/>
+                </div>
+
+                <span class="product-type">Sachet • Powder</span>
+                <span class="product-tag">Protein &amp; Mass</span>
+
+                <ul class="composition-list">
+                    <li>Pure Whey Protein</li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <div class="product-card">
+                <h4 class="product-title">Mass Gainer</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/mass.jpg"/>
+                </div>
+
+                <span class="product-type">Jar • Powder</span>
+                <span class="product-tag">Protein &amp; Mass</span>
+
+                <ul class="composition-list">
+                    <li>Protein <span>15 gm</span></li>
+                    <li>Carbohydrates <span>69 gm</span></li>
+                    <li>Creatine <span>1.5 gm</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <div class="product-card">
+                <h4 class="product-title">Whey Beginner</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/whey_beginner.jpg"/>
+                </div>
+
+                <span class="product-type">Sachet • Powder</span>
+                <span class="product-tag">Protein &amp; Mass</span>
+
+                <ul class="composition-list">
+                    <li>Protein <span>12 gm</span></li>
+                    <li>Carbohydrates <span>7 gm</span></li>
+                    <li>Fat <span>0.9 gm</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= PLANT ================= -->
+
+            <div class="product-card">
+                <h4 class="product-title">Plant Protein Blend</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/plant.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+                <span class="product-tag">Plant-Based</span>
+
+                <ul class="composition-list">
+                    <li>Protein <span>29 gm</span></li>
+                    <li>Carbohydrate <span>2 gm</span></li>
+                    <li>Fat <span>3 gm</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+
+            <!-- ================= ENERGY ================= -->
+
+            <div class="product-card">
+                <h4 class="product-title">Instant Energy Drink</h4>
+
+                <div class="product-img">
+                    <img src="/vearth_theme/static/images/energy.jpg"/>
+                </div>
+
+                <span class="product-type">Sachets • Powder</span>
+                <span class="product-tag">Energy &amp; Recovery</span>
+
+                <ul class="composition-list">
+                    <li>Vitamin C <span>50 mg</span></li>
+                    <li>Zinc <span>10 mg</span></li>
+                    <li>Citrulline <span>1 gm</span></li>
+                    <li>Taurine <span>250 mg</span></li>
+                </ul>
+
+                <button class="toggle-btn">Show More</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+                    <section id="skin" class="product-section scroll-animate">
+
+                        <div class="container">
+
+                            <h2 class="section-title text-center">
+                                Skin Care Nutraceuticals
+                            </h2>
+
+                            <div class="product-grid">
+
+                                <!-- 1 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Glutathione + Arginine</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/glutathione.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet / Capsule • Powder</span>
+                                    <span class="product-tag">Brightening</span>
+
+                                    <ul class="composition-list">
+                                        <li>Glutathione <span>500 mg</span></li>
+                                        <li>L-Arginine <span>1000 mg</span></li>
+                                        <li>Alpha Lipoic Acid <span>100 mg</span></li>
+                                        <li>Vitamin C <span>50 mg</span></li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Glutathione + Herbal Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/skin.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet / Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Glutathione <span>500 mg</span></li>
+                                        <li>Hyaluronic Acid <span>120 mg</span></li>
+                                        <li>Aloe Vera <span>100 mg</span></li>
+                                        <li>Berry Extracts</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 3 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Veg Collagen + Glutathione</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/collagen.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet • Powder</span>
+                                    <span class="product-tag">Collagen &amp; Repair</span>
+
+                                    <ul class="composition-list">
+                                        <li>Collagen <span>6 g</span></li>
+                                        <li>Glutathione <span>500 mg</span></li>
+                                        <li>Omega 3 <span>300 mg</span></li>
+                                        <li>Probiotics Blend</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 4 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Vitamins + Minerals + Herbals</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/vitamins.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Multivitamins 50% RDA</li>
+                                        <li>Zinc, Selenium, Chromium</li>
+                                        <li>Amino Acids (Glycine, Lysine, Proline)</li>
+                                        <li>Fruit Extracts (Blueberry, Amla, Pomegranate)</li>
+                                        <li>Herbal Extracts (Garlic, Ginger, Moringa)</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Glutathione + NAC + Herbals</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/glutathione.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Glutathione <span>500 mg</span></li>
+                                        <li>NAC <span>600 mg</span></li>
+                                        <li>Hyaluronic Acid <span>120 mg</span></li>
+                                        <li>Acai Berry, Citrus Bioflavonoids</li>
+                                        <li>Green Tea &amp; Biotin</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 6 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Glutathione + Lycopene + Astaxanthin</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/lycopene.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Glutathione <span>500 mg</span></li>
+                                        <li>Lycopene <span>16 mg</span></li>
+                                        <li>Astaxanthin <span>2 mg</span></li>
+                                        <li>Vitamin C &amp; E</li>
+                                        <li>Selenium + Aloe Vera</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 7 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Veg Collagen + Glutathione + Probiotics</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/collagen.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Collagen 6 g + Omega 3</li>
+                                        <li>Glutathione 500 mg</li>
+                                        <li>Hyaluronic Acid</li>
+                                        <li>Probiotics (Lactobacillus)</li>
+                                        <li>Vitamins A, C, E &amp; Biotin</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 8 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Herbal Skin Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/herbal.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Sesbania + Amla Extract</li>
+                                        <li>Green Tea &amp; Coffee Extract</li>
+                                        <li>Phyto Ceramides</li>
+                                        <li>Fruit Powders (Lemon, Orange, Blueberry)</li>
+                                        <li>Cinnamon Extract</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 9 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Glutathione Glow Builder</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/glowbuilder.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Glutathione <span>500 mg</span></li>
+                                        <li>Curcuma Longa</li>
+                                        <li>Milk Thistle + Grape Seed</li>
+                                        <li>Vitamin C, E, B6</li>
+                                        <li>Collagen + Biotin</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 10 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Resveratrol + Quercetin Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/resveratrol.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Resveratrol <span>125 mg</span></li>
+                                        <li>Quercetin <span>100 mg</span></li>
+                                        <li>Green Tea Extract</li>
+                                        <li>Pomegranate Extract</li>
+                                        <li>Citrus Bioflavonoids</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 11 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Collagen + Glutathione + Astaxanthin</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/astaxanthin.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Collagen <span>7.5 g</span></li>
+                                        <li>Glutathione <span>500 mg</span></li>
+                                        <li>Astaxanthin <span>12 mg</span></li>
+                                        <li>Hyaluronic Acid</li>
+                                        <li>Vitamin E</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 12 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Collagen Builder Advanced</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/collagen2.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Pea + Rice Protein</li>
+                                        <li>Evening Primrose</li>
+                                        <li>Sea Buckthorn</li>
+                                        <li>Ashwagandha + Amla</li>
+                                        <li>Turmeric Extract</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                        <section id="hair" class="product-section scroll-animate">
+                        <div class="container">
+
+                            <h2 class="section-title text-center">Hair Care Products</h2>
+
+                            <div class="product-grid">
+
+                                <!-- 1 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Vitamins + Minerals + Amino Acid + Inositol</h4>
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/hair1.jpg"/>
+                                    </div>
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>L-Arginine, L-Cysteine, DL-Methionine</li>
+                                        <li>Biotin, Zinc, Selenium</li>
+                                        <li>Niacin &amp; Pantothenic Acid</li>
+                                        <li>Iron, Copper</li>
+                                        <li>Inositol for hair growth</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Amino Acid + Herbal Hair Blend</h4>
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/hair2.jpg"/>
+                                    </div>
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Taurine + Glycine</li>
+                                        <li>Nettle Leaf Extract</li>
+                                        <li>Grape Seed Extract</li>
+                                        <li>Biotin + Zinc + Vitamin B Complex</li>
+                                        <li>Folic Acid + Chromium</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 3 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Advanced Herbal Hair Growth Formula</h4>
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/hair3.jpg"/>
+                                    </div>
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Anagain (Pea Sprout Extract)</li>
+                                        <li>Beta Sitosterol + Nettle Extract</li>
+                                        <li>Amino Acids for keratin support</li>
+                                        <li>Biotin + Vitamins B Complex</li>
+                                        <li>MSM + Brewer’s Yeast</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 4 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Complete Amino Therapy for Hair</h4>
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/hair4.jpg"/>
+                                    </div>
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Full Amino Acid Spectrum</li>
+                                        <li>Biotin + Vitamin E</li>
+                                        <li>Zinc, Magnesium, Selenium</li>
+                                        <li>Grape Seed Extract</li>
+                                        <li>Vitamin D3 Support</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Biotin + Amino Hair Support</h4>
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/hair5.jpg"/>
+                                    </div>
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Biotin + Selenium + Zinc</li>
+                                        <li>Lysine, Proline, Glycine</li>
+                                        <li>Leucine, Valine, Isoleucine</li>
+                                        <li>Vitamin E</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 6 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Hair Strength + Anti Hair Fall Blend</h4>
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/hair6.jpg"/>
+                                    </div>
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Anagain + Beta Sitosterol</li>
+                                        <li>Pumpkin Seed Extract</li>
+                                        <li>Grape Seed Extract</li>
+                                        <li>Biotin + Zinc + Iron</li>
+                                        <li>Vitamin B Complex</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 7 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Hair Growth + Nutrient Complex</h4>
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/hair7.jpg"/>
+                                    </div>
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Biotin + Vitamin C + Niacin</li>
+                                        <li>Calcium + Magnesium + Iron</li>
+                                        <li>Amino Acid Matrix</li>
+                                        <li>Soy Isoflavones</li>
+                                        <li>Pea Extract</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 8 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Hair + Scalp Herbal Nutrition</h4>
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/hair8.jpg"/>
+                                    </div>
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Biotin + Selenium + Zinc</li>
+                                        <li>Amino Acids for keratin</li>
+                                        <li>Aloe Vera Extract</li>
+                                        <li>Vitamin E</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 9 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">DHT Blocker Herbal Blend</h4>
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/hair9.jpg"/>
+                                    </div>
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Beta Sitosterol</li>
+                                        <li>Nettle Leaf Extract</li>
+                                        <li>EGCG (Green Tea)</li>
+                                        <li>Biotin + Zinc</li>
+                                        <li>Folic Acid</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                        <section id="kids" class="product-section scroll-animate">
+
+                            <div class="container">
+
+                                <h2 class="section-title text-center">
+                                    Kids Nutrition Products
+                                </h2>
+
+                                <div class="product-grid">
+
+                                    <!-- 1 -->
+                                    <div class="product-card">
+                                        <h4 class="product-title">Protein Powder with Herbs</h4>
+
+                                        <div class="product-img">
+                                            <img src="/vearth_theme/static/images/kids1.jpg"/>
+                                        </div>
+
+                                        <span class="product-type">Sachet • Powder</span>
+
+                                        <ul class="composition-list">
+                                            <li>Protein + Carbohydrates + Healthy Fats</li>
+                                            <li>Shatavari + Ashoka Extract</li>
+                                            <li>Curcumin + Guduchi</li>
+                                            <li>Black Pepper Extract</li>
+                                            <li>Vitamins &amp; Minerals</li>
+                                        </ul>
+
+                                        <button class="toggle-btn">Show More</button>
+                                    </div>
+
+                                    <!-- 2 -->
+                                    <div class="product-card">
+                                        <h4 class="product-title">Protein Powder with Probiotics</h4>
+
+                                        <div class="product-img">
+                                            <img src="/vearth_theme/static/images/kids2.jpg"/>
+                                        </div>
+
+                                        <span class="product-type">Sachet • Powder</span>
+
+                                        <ul class="composition-list">
+                                            <li>High Protein + Carbohydrates</li>
+                                            <li>DHA + Taurine + Inositol</li>
+                                            <li>Lactobacillus &amp; Bifidobacterium</li>
+                                            <li>Gut Health Support</li>
+                                            <li>Vitamins &amp; Minerals</li>
+                                        </ul>
+
+                                        <button class="toggle-btn">Show More</button>
+                                    </div>
+
+                                    <!-- 3 -->
+                                    <div class="product-card">
+                                        <h4 class="product-title">Protein Powder + DHA + Colostrum</h4>
+
+                                        <div class="product-img">
+                                            <img src="/vearth_theme/static/images/kids3.jpg"/>
+                                        </div>
+
+                                        <span class="product-type">Sachet • Powder</span>
+
+                                        <ul class="composition-list">
+                                            <li>Protein + Carbohydrates</li>
+                                            <li>DHA + Colostrum</li>
+                                            <li>L-Carnitine + Taurine</li>
+                                            <li>Inositol Support</li>
+                                            <li>Vitamins &amp; Minerals</li>
+                                        </ul>
+
+                                        <button class="toggle-btn">Show More</button>
+                                    </div>
+
+                                    <!-- 4 -->
+                                    <div class="product-card">
+                                        <h4 class="product-title">Protein Powder (Balanced Nutrition)</h4>
+
+                                        <div class="product-img">
+                                            <img src="/vearth_theme/static/images/kids4.jpg"/>
+                                        </div>
+
+                                        <span class="product-type">Sachet • Powder</span>
+
+                                        <ul class="composition-list">
+                                            <li>Protein + Carbohydrates</li>
+                                            <li>Low Fat Composition</li>
+                                            <li>Daily Nutrition Support</li>
+                                            <li>Vitamins &amp; Minerals</li>
+                                        </ul>
+
+                                        <button class="toggle-btn">Show More</button>
+                                    </div>
+
+                                    <!-- 5 -->
+                                    <div class="product-card">
+                                        <h4 class="product-title">High Protein Kids Formula</h4>
+
+                                        <div class="product-img">
+                                            <img src="/vearth_theme/static/images/kids5.jpg"/>
+                                        </div>
+
+                                        <span class="product-type">Sachet • Powder</span>
+
+                                        <ul class="composition-list">
+                                            <li>High Protein Content</li>
+                                            <li>Moderate Carbohydrates</li>
+                                            <li>Low Fat Formula</li>
+                                        </ul>
+
+                                        <button class="toggle-btn">Show More</button>
+                                    </div>
+
+                                    <!-- 6 -->
+                                    <div class="product-card">
+                                        <h4 class="product-title">Protein Powder (Energy Blend)</h4>
+
+                                        <div class="product-img">
+                                            <img src="/vearth_theme/static/images/kids6.jpg"/>
+                                        </div>
+
+                                        <span class="product-type">Sachet • Powder</span>
+
+                                        <ul class="composition-list">
+                                            <li>Protein + High Carbohydrates</li>
+                                            <li>Energy Boosting Formula</li>
+                                            <li>Vitamins &amp; Minerals</li>
+                                        </ul>
+
+                                        <button class="toggle-btn">Show More</button>
+                                    </div>
+
+                                    <!-- 7 -->
+                                    <div class="product-card">
+                                        <h4 class="product-title">Protein Powder with Herbs &amp; Probiotics</h4>
+
+                                        <div class="product-img">
+                                            <img src="/vearth_theme/static/images/kids7.jpg"/>
+                                        </div>
+
+                                        <span class="product-type">Sachet • Powder</span>
+
+                                        <ul class="composition-list">
+                                            <li>Protein + Fiber + DHA</li>
+                                            <li>Brahmi &amp; Shankhpushpi</li>
+                                            <li>Curcumin Extract</li>
+                                            <li>Probiotic Blend</li>
+                                            <li>Prebiotic (FOS)</li>
+                                        </ul>
+
+                                        <button class="toggle-btn">Show More</button>
+                                    </div>
+
+                                    <!-- 8 -->
+                                    <div class="product-card">
+                                        <h4 class="product-title">Stamina Powder</h4>
+
+                                        <div class="product-img">
+                                            <img src="/vearth_theme/static/images/kids8.jpg"/>
+                                        </div>
+
+                                        <span class="product-type">Sachet • Powder</span>
+
+                                        <ul class="composition-list">
+                                            <li>Dextrose + Sucrose</li>
+                                            <li>Zinc + Vitamin C</li>
+                                            <li>Electrolytes Support</li>
+                                            <li>Probiotic Support</li>
+                                        </ul>
+
+                                        <button class="toggle-btn">Show More</button>
+                                    </div>
+
+                                    <!-- 9 -->
+                                    <div class="product-card">
+                                        <h4 class="product-title">Energy Drink</h4>
+
+                                        <div class="product-img">
+                                            <img src="/vearth_theme/static/images/kids9.jpg"/>
+                                        </div>
+
+                                        <span class="product-type">Sachet • Powder</span>
+
+                                        <ul class="composition-list">
+                                            <li>Taurine + L-Carnitine</li>
+                                            <li>Vitamin C</li>
+                                            <li>Zinc Support</li>
+                                            <li>Instant Energy Boost</li>
+                                        </ul>
+
+                                        <button class="toggle-btn">Show More</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    <section id="anemia" class="product-section scroll-animate">
+
+                    <div class="container">
+
+                        <h2 class="section-title text-center">
+                            Anemia / Blood Support Products
+                        </h2>
+
+                        <div class="product-grid">
+
+                            <!-- 1 -->
+                            <div class="product-card">
+                                <h4 class="product-title">
+                                    Iron + Folic Acid + Zinc + Vitamin B12
+                                </h4>
+
+                                <div class="product-img">
+                                    <img src="/vearth_theme/static/images/anemia1.jpg"/>
+                                </div>
+
+                                <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                <ul class="composition-list">
+                                    <li>Iron <span>29 mg</span></li>
+                                    <li>Folic Acid <span>220 mcg</span></li>
+                                    <li>Zinc <span>10 mg</span></li>
+                                    <li>Vitamin B12 <span>2.2 mcg</span></li>
+                                    <li>Supports hemoglobin formation</li>
+                                </ul>
+
+                                <button class="toggle-btn">Show More</button>
+                            </div>
+
+                            <!-- 2 -->
+                            <div class="product-card">
+                                <h4 class="product-title">
+                                    Iron + Zinc + Folic Acid + Beetroot Extract
+                                </h4>
+
+                                <div class="product-img">
+                                    <img src="/vearth_theme/static/images/anemia2.jpg"/>
+                                </div>
+
+                                <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                <ul class="composition-list">
+                                    <li>Iron <span>12 mg</span></li>
+                                    <li>Zinc <span>7.5 mg</span></li>
+                                    <li>Folic Acid <span>176.5 mcg</span></li>
+                                    <li>Beetroot Extract (Beta Vulgaris)</li>
+                                    <li>Supports blood circulation &amp; RBC production</li>
+                                </ul>
+
+                                <button class="toggle-btn">Show More</button>
+                            </div>
+
+                            <!-- 3 -->
+                            <div class="product-card">
+                                <h4 class="product-title">
+                                    Iron + Folic Acid + Zinc + Vitamin B12 (Balanced)
+                                </h4>
+
+                                <div class="product-img">
+                                    <img src="/vearth_theme/static/images/anemia3.jpg"/>
+                                </div>
+
+                                <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                <ul class="composition-list">
+                                    <li>Iron <span>19 mg</span></li>
+                                    <li>Folic Acid <span>200 mcg</span></li>
+                                    <li>Zinc <span>7.5 mg</span></li>
+                                    <li>Vitamin B12 <span>1 mcg</span></li>
+                                    <li>Daily blood health support</li>
+                                </ul>
+
+                                <button class="toggle-btn">Show More</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                    <section id="women" class="product-section scroll-animate">
+
+                        <div class="container">
+
+                            <h2 class="section-title text-center">
+                                Women Care Products
+                            </h2>
+
+                            <div class="product-grid">
+
+                                <!-- 1 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">
+                                        Protein + Vitamins + Minerals with Herbal Extract
+                                    </h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/women1.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Protein + Carbohydrates + Dietary Fiber</li>
+                                        <li>Vitamins &amp; Minerals</li>
+                                        <li>Shatavari + Ashoka Extract</li>
+                                        <li>Giloy + Curcumin Extract</li>
+                                        <li>Black Pepper Extract</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">
+                                        Vitamins + Herbal Extract
+                                    </h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/women2.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Shatavari Extract 300 mg</li>
+                                        <li>Vitamin B12 + Vitamin C</li>
+                                        <li>Folic Acid + Vitamin K</li>
+                                        <li>L-Tryptophan Support</li>
+                                        <li>Chasteberry + Cranberry Extract</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 3 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">
+                                        Vitamins + DL Methionine + Beta Carotene
+                                    </h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/women3.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Zinc 12 mg</li>
+                                        <li>DL-Methionine 88 mg</li>
+                                        <li>Vitamin C (Coated)</li>
+                                        <li>Beta Carotene</li>
+                                        <li>Vitamin E</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <section id="pregnancy" class="product-section scroll-animate">
+
+                    <div class="container">
+
+                        <h2 class="section-title text-center">
+                            Pregnant Women Nutrition
+                        </h2>
+
+                        <div class="product-grid">
+
+                            <!-- 1 -->
+                            <div class="product-card">
+                                <h4 class="product-title">Arginine Supplement</h4>
+
+                                <div class="product-img">
+                                    <img src="/vearth_theme/static/images/preg1.jpg"/>
+                                </div>
+
+                                <span class="product-type">Sachet • Powder</span>
+
+                                <ul class="composition-list">
+                                    <li>L-Arginine 3 gm</li>
+                                    <li>Grape Seed Extract (Proanthocyanidin)</li>
+                                    <li>Supports blood circulation</li>
+                                </ul>
+
+                                <button class="toggle-btn">Show More</button>
+                            </div>
+
+                            <!-- 2 -->
+                            <div class="product-card">
+                                <h4 class="product-title">Arginine + Folic Acid + Zinc</h4>
+
+                                <div class="product-img">
+                                    <img src="/vearth_theme/static/images/preg2.jpg"/>
+                                </div>
+
+                                <span class="product-type">Sachet • Powder</span>
+
+                                <ul class="composition-list">
+                                    <li>L-Arginine 3 gm</li>
+                                    <li>Folic Acid 500 mcg</li>
+                                    <li>Zinc 10 mg</li>
+                                    <li>Grape Seed Extract</li>
+                                    <li>Supports fetal development</li>
+                                </ul>
+
+                                <button class="toggle-btn">Show More</button>
+                            </div>
+
+                            <!-- 3 -->
+                            <div class="product-card">
+                                <h4 class="product-title">Arginine + DHA</h4>
+
+                                <div class="product-img">
+                                    <img src="/vearth_theme/static/images/preg3.jpg"/>
+                                </div>
+
+                                <span class="product-type">Sachet • Powder</span>
+
+                                <ul class="composition-list">
+                                    <li>L-Arginine 3 gm</li>
+                                    <li>DHA (Omega 3)</li>
+                                    <li>Grape Seed Extract</li>
+                                    <li>Supports brain development</li>
+                                </ul>
+
+                                <button class="toggle-btn">Show More</button>
+                            </div>
+
+                            <!-- 4 -->
+                            <div class="product-card">
+                                <h4 class="product-title">Protein + DHA</h4>
+
+                                <div class="product-img">
+                                    <img src="/vearth_theme/static/images/preg4.jpg"/>
+                                </div>
+
+                                <span class="product-type">Sachet • Powder</span>
+
+                                <ul class="composition-list">
+                                    <li>Protein + Carbohydrates</li>
+                                    <li>Dietary Fiber + Healthy Fats</li>
+                                    <li>DHA Support</li>
+                                    <li>Vitamins &amp; Minerals</li>
+                                </ul>
+
+                                <button class="toggle-btn">Show More</button>
+                            </div>
+
+                            <!-- 5 -->
+                            <div class="product-card">
+                                <h4 class="product-title">Protein + DHA + GLA</h4>
+
+                                <div class="product-img">
+                                    <img src="/vearth_theme/static/images/preg5.jpg"/>
+                                </div>
+
+                                <span class="product-type">Sachet • Powder</span>
+
+                                <ul class="composition-list">
+                                    <li>DHA + Gamma Linoleic Acid</li>
+                                    <li>Protein + Fiber</li>
+                                    <li>Balanced Carbohydrates</li>
+                                    <li>Vitamins &amp; Minerals</li>
+                                </ul>
+
+                                <button class="toggle-btn">Show More</button>
+                            </div>
+
+                            <!-- 6 -->
+                            <div class="product-card">
+                                <h4 class="product-title">Protein + DHA + Flaxseed</h4>
+
+                                <div class="product-img">
+                                    <img src="/vearth_theme/static/images/preg6.jpg"/>
+                                </div>
+
+                                <span class="product-type">Sachet • Powder</span>
+
+                                <ul class="composition-list">
+                                    <li>Protein + Carbohydrates</li>
+                                    <li>DHA Support</li>
+                                    <li>Flaxseed Powder</li>
+                                    <li>Healthy Fats + Fiber</li>
+                                    <li>Vitamins &amp; Minerals</li>
+                                </ul>
+
+                                <button class="toggle-btn">Show More</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                     <section id="pcos" class="product-section scroll-animate">
+
+                        <div class="container">
+
+                            <h2 class="section-title text-center">
+                                PCOS / PCOD Care Products
+                            </h2>
+
+                            <div class="product-grid">
+
+                                <!-- 1 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">
+                                        Myo-Inositol + D-Chiro Inositol + Minerals
+                                    </h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/pcos1.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Myo-Inositol 2000 mg + D-Chiro Inositol</li>
+                                        <li>Berberine + NAC</li>
+                                        <li>Chromium + Selenium + Zinc</li>
+                                        <li>Vitamin D2 + B6 + B12</li>
+                                        <li>L-Methyl Folate</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Herbal Hormonal Balance Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/pcos2.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Shatavari + Ashwagandha</li>
+                                        <li>Manjistha + Kanchanar</li>
+                                        <li>Gokshura Extract</li>
+                                        <li>Supports hormonal regulation</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 3 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Inositol + Herbal + DHA Complex</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/pcos3.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Myo &amp; D-Chiro Inositol</li>
+                                        <li>Vitamin B9, B12, D3</li>
+                                        <li>Magnesium + Zinc</li>
+                                        <li>Vegan DHA (Algal Oil)</li>
+                                        <li>Fenugreek + Chasteberry + Shatavari</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 4 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Advanced Herbal Detox Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/pcos4.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Curcumin + Vitex</li>
+                                        <li>Ashwagandha + Shatavari</li>
+                                        <li>Moringa + Ginger</li>
+                                        <li>Nigella Sativa + Boswellia</li>
+                                        <li>Shilajit Support</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Comprehensive Herbal Therapy</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/pcos5.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Rauwolfia + Ashwagandha</li>
+                                        <li>Centella + Shatavari</li>
+                                        <li>Guduchi + Licorice</li>
+                                        <li>Jatamansi + Mukta Pishti</li>
+                                        <li>Supports endocrine balance</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 6 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Herbal + Fruit Nutrient Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/pcos6.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Shatavari + Ashoka + Chasteberry</li>
+                                        <li>Pomegranate + Amla + Beetroot</li>
+                                        <li>Aloe Vera + Flaxseed</li>
+                                        <li>Fennel + Papaya + Mango</li>
+                                        <li>Rich antioxidant support</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 7 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Berberine Metabolic Support Blend</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/pcos7.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Berberine HCL</li>
+                                        <li>Cinnamon + Ginseng</li>
+                                        <li>Turmeric + Black Pepper</li>
+                                        <li>Cayenne Extract</li>
+                                        <li>Supports insulin sensitivity</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 8 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Myo-Inositol + Minerals Advanced</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/pcos8.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Myo-Inositol 2000 mg</li>
+                                        <li>D-Chiro Inositol</li>
+                                        <li>Vitamin D3 + Folate</li>
+                                        <li>Calcium + Magnesium</li>
+                                        <li>Alpha Lipoic Acid</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 9 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Myo-Inositol + Probiotics</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/pcos9.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Myo-Inositol 2050 mg</li>
+                                        <li>Multi-strain Probiotics</li>
+                                        <li>Inulin (Prebiotic)</li>
+                                        <li>Vitamin C + Full RDA Vitamins</li>
+                                        <li>Chromium Support</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+                    <section id="general" class="product-section scroll-animate">
+
+                        <div class="container">
+
+                            <h2 class="section-title text-center">
+                                General Health &amp; Wellness
+                            </h2>
+
+                            <div class="product-grid">
+
+                                <!-- 1 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Ashwagandha Tablet</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/health1.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Ashwagandha KSM-66 Extract 300 mg</li>
+                                        <li>Stress &amp; energy support</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Glutathione + Milk Thistle + Vitamins</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/health2.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>L-Glutathione 400 mg</li>
+                                        <li>Milk Thistle Extract</li>
+                                        <li>Vitamins &amp; Minerals</li>
+                                        <li>Liver detox support</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 3 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Ashwagandha + Bhringaraja + Zinc</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/health3.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Ashwagandha Extract</li>
+                                        <li>Bhringaraja Extract</li>
+                                        <li>Zinc 12 mg</li>
+                                        <li>Hair &amp; vitality support</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 4 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Vitamins &amp; Minerals</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/health4.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Vitamin A, B Complex, C, E</li>
+                                        <li>Zinc, Selenium, Manganese</li>
+                                        <li>Folic Acid + Lycopene</li>
+                                        <li>Daily immunity support</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Protein + Vitamins + Minerals</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/health5.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Protein 25 g</li>
+                                        <li>Carbs + Healthy Fats</li>
+                                        <li>Ashwagandha + Turmeric</li>
+                                        <li>Green Tea Extract</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 6 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Collagen Supplement</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/health6.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Veg Collagen Peptide 1000 mg</li>
+                                        <li>Skin &amp; joint support</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 7 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Collagen + Vitamin C + Biotin</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/health7.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Veg Collagen 7 g</li>
+                                        <li>Vitamin C 65 mg</li>
+                                        <li>Biotin 5 mcg</li>
+                                        <li>Skin &amp; hair health</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 8 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Multivitamin + Amino + Antioxidants</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/health8.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Full spectrum vitamins &amp; minerals</li>
+                                        <li>Amino acids + antioxidants</li>
+                                        <li>Green Tea + Lycopene</li>
+                                        <li>Daily wellness formula</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                                <!-- 9 -->
+                                <div class="product-card">
+                                    <h4 class="product-title">Multivitamin + CoQ10 + Ginger</h4>
+
+                                    <div class="product-img">
+                                        <img src="/vearth_theme/static/images/health9.jpg"/>
+                                    </div>
+
+                                    <span class="product-type">Sachet/Capsule • Powder</span>
+
+                                    <ul class="composition-list">
+                                        <li>Multivitamin complex</li>
+                                        <li>Co-Enzyme Q10</li>
+                                        <li>Ginger Root Extract</li>
+                                        <li>Energy &amp; metabolism support</li>
+                                    </ul>
+
+                                    <button class="toggle-btn">Show More</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+                    </div>
+                </div>
+            </t>
+    </template>
+
+    <record id="vearth_products" model="website.menu">
+           <field name="name">Products</field>
+           <field name="url">/products</field>
+           <field name="parent_id" ref="website.main_menu"/>
+       </record>
+</odoo>

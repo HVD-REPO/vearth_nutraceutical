@@ -1,0 +1,119 @@
+<odoo>
+
+<template id="custom_theme_header" inherit_id="website.layout" name="Premium Header Vearth">
+
+    <xpath expr="//header" position="replace">
+
+        <header id="vearthHeader">
+
+            <!-- ===== TOP BAR ===== -->
+            <div class="top-bar-premium">
+                    <div class="container d-flex justify-content-between align-items-center">
+
+                        <div class="top-contact">
+                            <a t-attf-href="tel:{{ website.company_id.phone }}">
+                                <i class="fa fa-phone"></i>
+                                <span><t t-out="website.company_id.phone"/></span>
+                            </a>
+
+                            <a t-attf-href="mailto:{{ website.company_id.email }}">
+                                <i class="fa fa-envelope"></i>
+                                <span> <t t-out="website.company_id.email"/></span>
+                            </a>
+                        </div>
+
+                        <div class="top-actions">
+                            <a href="/contactus" class="contact-btn">Contact Us</a>
+                            <button id="themeToggle" class="theme-toggle">
+                                <i class="fa fa-toggle-on"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+            <!-- ===== MAIN NAVBAR ===== -->
+            <nav class="navbar navbar-expand-lg premium-navbar">
+
+                <div class="container">
+
+                    <!-- LOGO -->
+                    <a class="navbar-brand" href="/">
+                        <img t-att-src="'%s/logo.png?company=%s' % (base_url, website.company_id.id)" class="logo-img"/>
+                    </a>
+
+                    <!-- TOGGLE -->
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav">
+                        <span class="fa fa-bars"/>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                        <ul class="navbar-nav mx-auto">
+
+                            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/about-vearth">About Vearth</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/manufacturing">Manufacturing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/service">Services</a></li>
+
+                            <!-- ===== MEGA MENU ===== -->
+                            <li class="nav-item dropdown mega-dropdown">
+
+                                <a class="nav-link dropdown-toggle" href="/products" data-bs-toggle="dropdown">
+                                    Products
+                                </a>
+
+                                <div class="dropdown-menu mega-menu animated">
+
+                                    <div class="row">
+
+                                        <div class="col-md-6">
+                                            <h6>🏋️ Nutrition</h6>
+                                            <a href="/products#beverages"><i class="fa fa-coffee"></i> Beverages</a>
+                                            <a href="/products#preworkout"><i class="fa fa-bolt"></i> Pre Workout</a>
+                                            <a href="/products#postworkout"><i class="fa fa-heartbeat"></i> Post Workout</a>
+                                            <a href="/products#kids"><i class="fa fa-child"></i> Kids Nutrition</a>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <h6>✨ Wellness</h6>
+                                            <a href="/products#skin"><i class="fa fa-leaf"></i> Skin Care</a>
+                                            <a href="/products#hair"><i class="fa fa-scissors"></i> Hair Care</a>
+                                            <a href="/products#women"><i class="fa fa-female"></i> Women Care</a>
+                                            <a href="/products#pcos"><i class="fa fa-heart"></i> PCOS Care</a>
+                                            <a href="/products#anemia"><i class="fa fa-tint"></i> Blood Support</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="/contactus">Contact</a></li>
+
+                        </ul>
+
+                        <!-- USER -->
+                        <div class="d-flex">
+
+                            <t t-call="portal.placeholder_user_sign_in">
+                                <t t-set="_item_class" t-value="'nav-item ms-3'"/>
+                                <t t-set="_link_class" t-value="'nav-link text-white'"/>
+                            </t>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </nav>
+
+        </header>
+
+    </xpath>
+
+</template>
+
+</odoo>
