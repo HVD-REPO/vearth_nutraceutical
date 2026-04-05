@@ -1,0 +1,283 @@
+<odoo>
+        <template id="vearth_manufacturing_page"  name="About Us - Vearth Nutraceutical">
+            <t t-call="website.template_header_hamburger">
+                <section class="vearth-hero-slider">
+    
+                    <div class="hero-track" id="heroSlider">
+
+                        <!-- Slide 1 -->
+                        <div class="hero-slide">
+                            <img src="/vearth_theme/static/images/banner_1.png"/>
+                        </div>
+
+
+                        <!-- Slide 3 -->
+                        <div class="hero-slide">
+                            <img src="/vearth_theme/static/images/qc_banner.png"/>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="hero-slide">
+                            <img src="/vearth_theme/static/images/banner_3.png"/>
+                        </div>
+
+                    </div>
+
+                    <!-- Navigation -->
+                   <button class="hero-btn left" id="heroPrev">❮</button>
+                    <button class="hero-btn right" id="heroNext">❯</button>
+
+
+                    <div class="hero-dots" id="heroDots"></div>
+
+            </section>
+
+                <div class="page-wrapper">
+
+    <!-- Scroll Progress -->
+                    <div class="scroll-progress"></div>
+
+                    <!-- Mobile Toggle -->
+                    <div class="mobile-nav-toggle">☰</div>
+
+                    <!-- Side Navigation -->
+                    <nav class="side-nav">
+                        <a href="#dosage" class="active">Dosage Forms</a>
+                        <a href="#packaging">Packaging</a>
+                        <a href="#quality">Quality</a>
+                        <a href="#rnd">R&amp;D</a>
+                    </nav>
+
+
+    <!-- ================= DOSAGE ================= -->
+    <section id="dosage" class="dark-primary scroll-section">
+
+    <h2 class="section-title">Dosage Forms</h2>
+    <p class="section-subtitle">
+        Scientifically crafted delivery formats designed for efficacy and stability.
+    </p>
+
+    <div class="dosage-grid">
+
+        <!-- ================= POWDERS ================= -->
+        <div class="dosage-card">
+            <img src="/vearth_theme/static/images/harble.jpg" class="dosage-main-img"/>
+            <h3>Powders</h3>
+
+            <ul class="dosage-list">
+                <li>
+                    <img src="/vearth_theme/static/images/prottein_blends.png" class="list-img"/>
+                    <div>
+                        <strong>Protein Blends</strong>
+                        <p>High-quality plant &amp; whey formulations</p>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="/vearth_theme/static/images/herbal.png" class="list-img"/>
+                    <div>
+                        <strong>Herbal Mixtures</strong>
+                        <p>Traditional &amp; modern botanical blends</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ================= VEG CAPSULES ================= -->
+        <div class="dosage-card">
+            <img src="/vearth_theme/static/images/veg_capsule.png" class="dosage-main-img"/>
+            <h3>Veg Capsules</h3>
+
+            <ul class="dosage-list">
+                <li>
+                    <img src="/vearth_theme/static/images/Herbal_extracts_capsule.png" class="list-img"/>
+                    <div>
+                        <strong>Herbal Extracts</strong>
+                        <p>Standardized plant-based actives</p>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="/vearth_theme/static/images/probotics_capsule.png" class="list-img"/>
+                    <div>
+                        <strong>Probiotics</strong>
+                        <p>Gut-support clinically tested strains</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ================= SACHETS ================= -->
+        <div class="dosage-card">
+            <img src="/vearth_theme/static/images/sachet_packages.png" class="dosage-main-img"/>
+            <h3>Sachets</h3>
+
+            <ul class="dosage-list">
+                <li>
+                    <img src="/vearth_theme/static/images/single_seve_sachet.png" class="list-img"/>
+                    <div>
+                        <strong>Single-Serve</strong>
+                        <p>Convenient daily dosage packs</p>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="/vearth_theme/static/images/ors_blend_sachets.png" class="list-img"/>
+                    <div>
+                        <strong>ORS Blends</strong>
+                        <p>Electrolyte hydration support</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ================= PACKAGING ================= -->
+    <section id="packaging" class="dark-soft scroll-section">
+
+        <h2 class="section-title">Packaging Solutions</h2>
+        <p class="section-subtitle">
+            Designed for product safety, branding impact and shelf excellence.
+        </p>
+
+        <div class="packaging-layout">
+
+            <div class="card-grid">
+                <div class="pack-card">
+                    <img src="/vearth_theme/static/images/bottle_packaging.png" class="pack-img"/>
+                    <h4>Bottles</h4>
+                    <p>HDPE &amp; PET pharma-grade containers</p>
+                </div>
+
+                <div class="pack-card">
+                    <img src="/vearth_theme/static/images/jar_packagin_2.png" class="pack-img"/>
+                    <h4>Jars</h4>
+                    <p>Wide mouth premium supplement jars</p>
+                </div>
+
+                <div class="pack-card">
+                    <img src="/vearth_theme/static/images/standup_pouch_packaging.png" class="pack-img"/>
+                    <h4>Stand-Up Pouches</h4>
+                    <p>Moisture protected zip-lock packs</p>
+                </div>
+
+                <div class="pack-card">
+                    <img src="/vearth_theme/static/images/sachet_packages_2.png" class="pack-img"/>
+                    <h4>Sachets</h4>
+                    <p>Single dose convenience packaging</p>
+                </div>
+            </div>
+
+            <div class="pack-visual">
+                <img src="/vearth_theme/static/images/green_bottle_packaging.png"/>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= QUALITY ================= -->
+    <section id="quality" class="dark-primary scroll-section">
+
+        <h2 class="section-title">Quality Standards</h2>
+        <p class="section-subtitle">
+            Built on global compliance, safety and scientific integrity.
+        </p>
+
+        <div class="quality-grid">
+
+            <div class="quality-card">
+                <img src="/vearth_theme/static/images/fssai.png"/>
+                <h4>FSSAI Licensed</h4>
+            </div>
+
+            <div class="quality-card">
+                <img src="/vearth_theme/static/images/gmp.png"/>
+                <h4>GMP Certified</h4>
+            </div>
+
+            <div class="quality-card">
+                <img src="/vearth_theme/static/images/haccp.png"/>
+                <h4>HACCP Systems</h4>
+            </div>
+
+            <div class="quality-card">
+                <img src="/vearth_theme/static/images/halal.png"/>
+                <h4>HALAL Certified</h4>
+            </div>
+
+        </div>
+
+        <div class="quality-process">
+            <div class="process-step">Raw Material Testing</div>
+            <div class="process-step">COA Verification</div>
+            <div class="process-step">Batch Traceability</div>
+            <div class="process-step">SOP Controlled Production</div>
+        </div>
+    </section>
+
+    <!-- ================= R&D ================= -->
+    <section id="rnd" class="scroll-section dark-soft rnd-section">
+
+    <h2 class="section-title">Research &amp; Innovation</h2>
+    <p class="section-subtitle">
+        Continuous development powered by science and formulation expertise.
+    </p>
+
+    <div class="rnd-grid">
+
+        <div class="rnd-card">
+            <img src="/vearth_theme/static/images/clinical_research.jpg" class="rnd-img"/>
+            <h4>Clinically Proven Ingredients</h4>
+            <p>Evidence-based raw materials backed by scientific validation.</p>
+        </div>
+
+        <div class="rnd-card">
+            <img src="/vearth_theme/static/images/bioavailability.jpg" class="rnd-img"/>
+            <h4>Bioavailability Enhancement</h4>
+            <p>Optimized delivery systems to maximize nutrient absorption.</p>
+        </div>
+
+        <div class="rnd-card">
+            <img src="/vearth_theme/static/images/ayurvedic_blend.jpg" class="rnd-img"/>
+            <h4>Modern Ayurvedic Blends</h4>
+            <p>Traditional knowledge integrated with contemporary science.</p>
+        </div>
+
+        <div class="rnd-card">
+            <img src="/vearth_theme/static/images/flavour_development.jpg" class="rnd-img"/>
+            <h4>Flavour Development</h4>
+            <p>Palatable and consumer-friendly supplement experiences.</p>
+        </div>
+
+        <div class="rnd-card">
+            <img src="/vearth_theme/static/images/stability_testing.jpg" class="rnd-img"/>
+            <h4>Stability Optimization</h4>
+            <p>Ensuring shelf-life consistency and formulation reliability.</p>
+        </div>
+
+        <div class="rnd-card">
+            <img src="/vearth_theme/static/images/custom_formulation.jpg" class="rnd-img"/>
+            <h4>Custom Formulation Architecture</h4>
+            <p>Tailored solutions built around brand-specific requirements.</p>
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+
+
+
+
+            </t>
+        </template>
+        <record id="vearth_manufacturing" model="website.menu">
+           <field name="name">Manufacturing capacity</field>
+           <field name="url">/manufacturing</field>
+           <field name="parent_id" ref="website.main_menu"/>
+       </record>
+</odoo>

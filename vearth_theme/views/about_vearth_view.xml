@@ -1,0 +1,186 @@
+<odoo>
+        <template id="vearth_about_us_page"  name="About Us - Vearth Nutraceutical">
+            <t t-call="website.template_header_hamburger">
+
+               <div id="wrap" class="oe_structure">
+
+    <!-- ================= HERO ================= -->
+    <section class="landing-section">
+        <div class="landing-container">
+            <video class="landing-content"
+       autoplay="autoplay"
+       muted="muted"
+       loop="loop"
+       playsinline="playsinline">
+                <source src="/vearth_theme/static/videos/Video_Not_Showing_Correctly.mp4" type="video/mp4"/>
+            </video>
+
+            <div class="hero-overlay">
+                <div class="container text-center text-white">
+                    <h1>About VEARTH Nutraceutical</h1>
+                    <p>Science-driven manufacturing powered by nature &amp; innovation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about-section scroll-animate">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+                    <h2 class="section-title">Who We Are</h2>
+
+                    <p>
+                        VEARTH Nutraceutical is a science-driven nutraceutical manufacturing company
+                        based in Ahmedabad, Gujarat. We specialize in clean, research-led formulations
+                        crafted with uncompromising quality.
+                    </p>
+
+                    <p>
+                        At VEARTH, we believe real wellness begins with products that are pure,
+                        effective, and transparent.
+                    </p>
+                </div>
+
+                <div class="col-lg-6">
+                    <iframe
+                        src="https://www.google.com/maps?q=Ahmedabad,Gujarat&amp;output=embed"
+                        width="100%" height="300"
+                        style="border:0;border-radius:12px;"
+                        loading="lazy">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= MISSION ================= -->
+    <section class="mission-section scroll-animate">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+                    <img src="/vearth_theme/static/images/about_section_4.png"
+                         class="img-fluid mission-img"/>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="section-title">Our Mission</h2>
+
+                    <p>
+                        We empower nutraceutical brands with world-class manufacturing
+                        and end-to-end formulation support.
+                    </p>
+
+                    <p>
+                        Transforming nature into scientifically engineered formulations
+                        with quality, transparency, and innovation at the core.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= VISION & MISSION ================= -->
+    <section class="vision-section scroll-animate">
+        <div class="container">
+
+            <h2 class="section-title text-center">Vision &amp; Mission</h2>
+
+            <div class="row g-4 mt-4">
+
+                <div class="col-lg-6">
+                    <div class="vm-card">
+                        <div class="vm-icon">
+                        <h3>👁️Our Vision</h3>
+                    </div>
+                        <p>
+                            To become India’s most trusted innovation-driven nutraceutical manufacturer,
+                            delivering global-standard formulations that empower healthier lives.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="vm-card">
+                        <div class="vm-icon"><h3>🎯 Our Mission</h3>
+
+                        </div>
+                        <p>
+                            To create scientifically validated nutraceutical products that improve
+                            health outcomes while setting new standards of trust and purity.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROMISE ================= -->
+    <section class="promise-section scroll-animate">
+        <div class="container text-center">
+            <h3>Your Success, Our Expertise</h3>
+            <p>
+                We help brands — from startups to enterprises — create world-class
+                nutraceutical products with unmatched purity, efficacy, and consistency.
+            </p>
+        </div>
+    </section>
+    <!-- ================= FOUNDER ================= -->
+    <section class="founder-section scroll-animate">
+
+        <video class="founder-video"
+       autoplay="autoplay"
+       muted="muted"
+       loop="loop"
+       playsinline="playsinline">
+            <source src="/vearth_theme/static/videos/Video_Not_Showing_Correctly.mp4" type="video/mp4"/>
+        </video>
+
+        <div class="founder-overlay">
+            <div class="container">
+                <div class="founder-content">
+
+                    <img src="/vearth_theme/static/images/logo.png"
+                         class="founder-photo"/>
+
+                    <div>
+                        <p class="founder-quote">
+                            “At VEARTH Nutraceutical, we combine the purity of nature with
+                            the precision of modern science. Our commitment is simple —
+                            build products that genuinely make a difference.”
+                        </p>
+
+                        <h4>Ashishkumar Shah</h4>
+                        <small>Founder</small>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+</div>
+
+           </t>
+    </template>
+
+    <!-- Menu Item to link to our new page -->
+       <record id="vearth_about_us" model="website.menu">
+           <field name="name">About us</field>
+           <field name="url">/about-vearth`</field>
+           <field name="parent_id" ref="website.main_menu"/>
+       </record>
+</odoo>

@@ -1,0 +1,90 @@
+<odoo>
+     <template id="vearth_layout" name="Main layout" inherit_id="portal.frontend_layout">
+
+    <xpath expr="//footer" position="replace">
+        <footer class="footer">
+
+            <div class="container footer-top">
+                <div class="row">
+
+                    <!-- ABOUT -->
+                    <div class="col-lg-4 col-md-6 col-12 footer-about">
+
+                        <a href="/" class="o_footer_logo logo">
+                            <img t-att-src="'%s/logo.png?company=%s' % (base_url, website.company_id.id)"
+                                 class="footer-logo img-fluid"
+                                 role="img"/>
+                        </a>
+
+                        <p class="footer-desc">
+                            “V” stands for Value, and “Earth” signifies Nature. Together, we bring valuable natural wellness, re-engineered through modern science.
+                        </p>
+
+                    </div>
+
+                    <!-- QUICK LINKS -->
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <h6 class="footer-title">Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about-vearth">About Vearth</a></li>
+                            <li><a href="/manufacturing">Manufacturing</a></li>
+                            <li><a href="/service">Service &amp; Categories</a></li>
+                            <li><a href="/contactus">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- CATEGORIES -->
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <h6 class="footer-title">Categories</h6>
+
+                        <ul class="footer-links collapsible-list">
+
+                            <li><a href="/products#beverages">Functional Beverage Formulations</a></li>
+                            <li><a href="/products#preworkout">Pre Workout</a></li>
+                            <li><a href="/products#postworkout">Post Workout</a></li>
+                            <li><a href="/products#skin">Skin Care</a></li>
+
+                            <!-- HIDDEN ITEMS -->
+                            <li class="extra"><a href="/products#hair">Hair Care</a></li>
+                            <li class="extra"><a href="/products#kids">Kids Nutrition</a></li>
+                            <li class="extra"><a href="/products#anemia">Blood Support Products</a></li>
+                            <li class="extra"><a href="/products#women">Women Care</a></li>
+                            <li class="extra"><a href="/products#pcos">PCOS / PCOD Care Products</a></li>
+
+                        </ul>
+
+                        <!-- TOGGLE BUTTON -->
+                        <button class="footer-toggle-btn">Show More</button>
+                    </div>
+
+                    <!-- CONTACT -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <h6 class="footer-title">Contact</h6>
+                        <p class="footer-text">
+                            📍 <t t-out="website.company_id.street"/> <br/>
+                            <t t-out="website.company_id.street2"/>,  <t t-out="website.company_id.city"/> 382330 <br/>
+                            📞 <t t-out="website.company_id.phone"/> <br/>
+                            ✉ <t t-out="website.company_id.email"/>
+                        </p>
+
+                        <div class="footer-social">
+                            <a t-attf-href="{{ website.company_id.social_facebook }}"><i class="fa fa-facebook"></i></a>
+                            <a t-attf-href="{{ website.company_id.social_instagram }}"><i class="fa fa-instagram"></i></a>
+                            <a t-attf-href="{{ website.company_id.social_linkedin }}"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- BOTTOM -->
+            <div class="footer-bottom text-center">
+                <p>© 2026 Vearth Nutraceutical. All rights reserved.</p>
+            </div>
+
+        </footer>
+    </xpath>
+
+</template>
+</odoo>

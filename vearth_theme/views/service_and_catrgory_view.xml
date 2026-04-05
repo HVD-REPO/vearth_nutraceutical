@@ -1,0 +1,231 @@
+<odoo>
+        <template id="vearth_service_and_category_page"  name="Service &amp; Categories - Vearth Nutraceutical">
+            <t t-call="website.template_header_hamburger">
+                <div class="service-page">
+
+    <!-- ================= HERO BANNER ================= -->
+                    <section class="vearth-hero-slider">
+
+                    <div class="hero-track" id="heroSlider">
+
+                        <!-- Slide 1 -->
+                        <div class="hero-slide">
+                            <img src="/vearth_theme/static/images/b2b_services.png"/>
+                        </div>
+
+
+                        <!-- Slide 3 -->
+                        <div class="hero-slide">
+                            <img src="/vearth_theme/static/images/category_1.png"/>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="hero-slide">
+                            <img src="/vearth_theme/static/images/category_2.png"/>
+                        </div>
+
+                    </div>
+
+                    <!-- Navigation -->
+                   <button class="hero-btn left" id="heroPrev">❮</button>
+                    <button class="hero-btn right" id="heroNext">❯</button>
+
+
+                    <div class="hero-dots" id="heroDots"></div>
+
+            </section>
+
+
+    <!-- ================= CATEGORY GRID ================= -->
+
+    <section class="category-section scroll-animate">
+        <div class="container">
+        <h2 class="section-title center">
+            Nutraceutical Health Categories
+        </h2>
+
+        <div class="category-grid">
+
+            <!-- ROW ITEMS -->
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/immunity.jpg"/>
+                <h4>Immunity</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/gut_health.jpg"/>
+                <h4>Gut Health</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/hair_skin_nails.jpg"/>
+                <h4>Hair, Skin &amp; Nails</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/energy.jpg"/>
+                <h4>Energy &amp; Vitality</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/sports_nutrition.jpg"/>
+                <h4>Sports Nutrition</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/women_health.jpg"/>
+                <h4>Women’s Health</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/mens_health.jpg"/>
+                <h4>Men’s Health</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/stress_sleep.jpg"/>
+                <h4>Stress &amp; Sleep</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/detox_liver.jpg"/>
+                <h4>Detox &amp; Liver</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/healthy_aging.jpg"/>
+                <h4>Healthy Aging</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/weight_management.jpg"/>
+                <h4>Weight Management</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/herbal_ayurvedic.jpg"/>
+                <h4>Herbal &amp; Ayurvedic</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/metabolic.jpg"/>
+                <h4>Metabolic Health</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/bone_joint.jpg"/>
+                <h4>Bone &amp; Joint Strength</h4>
+            </div>
+
+            <div class="category-card">
+                <img src="/vearth_theme/static/images/cardiovascular.jpg"/>
+                <h4>Cardiovascular Support</h4>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+                    <section id="b2b-services" class="scroll-section b2b-pro-section">
+    <div class="container">
+    <h2 class="section-title">B2B Services</h2>
+    <p class="section-subtitle">
+        Comprehensive manufacturing solutions supporting brands from concept to commercial scale.
+    </p>
+
+    <div class="b2b-services-wrapper">
+
+        <!-- 1 -->
+        <div class="b2b-service">
+            <div class="b2b-img">
+                <img src="/vearth_theme/static/images/formulation.png"/>
+            </div>
+            <div class="b2b-content">
+                <h3>Custom Formulation Development</h3>
+                <p>Scientifically designed nutraceutical formulations tailored to brand positioning and target health outcomes.</p>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="b2b-service reverse">
+            <div class="b2b-img">
+                <img src="/vearth_theme/static/images/private_label.png"/>
+            </div>
+            <div class="b2b-content">
+                <h3>Private Label Manufacturing</h3>
+                <p>Complete white-label manufacturing solutions enabling rapid market entry with premium-quality products.</p>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="b2b-service">
+            <div class="b2b-img">
+                <img src="/vearth_theme/static/images/ingredient.png"/>
+            </div>
+            <div class="b2b-content">
+                <h3>Ingredient Sourcing</h3>
+                <p>Global sourcing network ensuring consistent quality, traceability and regulatory compliance.</p>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="b2b-service reverse">
+            <div class="b2b-img">
+                <img src="/vearth_theme/static/images/regulatory.png"/>
+            </div>
+            <div class="b2b-content">
+                <h3>Regulatory &amp; Labelling Support</h3>
+                <p>Expert guidance for compliance, documentation and accurate nutritional labelling.</p>
+            </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="b2b-service">
+            <div class="b2b-img">
+                <img src="/vearth_theme/static/images/packaging_design.png"/>
+            </div>
+            <div class="b2b-content">
+                <h3>Packaging &amp; Design Guidance</h3>
+                <p>Strategic packaging consultation combining functionality, compliance and shelf appeal.</p>
+            </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="b2b-service reverse">
+            <div class="b2b-img">
+                <img src="/vearth_theme/static/images/startup_batch.png"/>
+            </div>
+            <div class="b2b-content">
+                <h3>Small Batches for Startups</h3>
+                <p>Flexible production capabilities supporting emerging brands with lower MOQs.</p>
+            </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="b2b-service">
+            <div class="b2b-img">
+                <img src="/vearth_theme/static/images/bulk_manufacturing.png"/>
+            </div>
+            <div class="b2b-content">
+                <h3>Bulk Manufacturing for Enterprise Brands</h3>
+                <p>Scalable manufacturing infrastructure designed for large-volume production and consistency.</p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</section>
+
+</div>
+            </t>
+        </template>
+
+
+    <record id="vearth_ervice_and_category_menu" model="website.menu">
+           <field name="name">Service &amp; Categories</field>
+           <field name="url">/service</field>
+           <field name="parent_id" ref="website.main_menu"/>
+       </record>
+</odoo>

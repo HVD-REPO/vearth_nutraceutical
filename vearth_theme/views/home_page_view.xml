@@ -1,0 +1,238 @@
+<odoo>
+  <template id="vearth_landing_page"  name="Home- Vearth Nutraceutical">
+            <t t-call="website.template_header_hamburger">
+                 <div id="wrap" class="oe_structure">
+                   <section class="landing-section">
+                       <div class="landing-container">
+                            <video class="landing-content" autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline">
+                                <source src="vearth_theme/static/videos/Website_Video_for_Nutraceutical_Company.mp4" type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
+
+                           <div class="landing-overlay">
+                                <div class="landing-text">
+                                    <h1>Science Meets Nature</h1>
+                                    <p>
+                                        At VEARTH, “V” stands for Value, and “Earth” signifies Nature.
+                                        Together, we bring valuable natural wellness, re-engineered through modern science.
+                                    </p>
+                                </div>
+                            </div>
+                       </div>
+                   </section>
+
+
+                     <section class="vearth-products premium-products dark-soft scroll-animate">
+                        <div class="container">
+                            <h2 class="section-title gradient-title">
+                                Dosage Forms &amp; Packaging
+                            </h2>
+
+                            <div class="row g-4">
+
+                                <!-- Dosage Forms -->
+                                <div class="col-lg-6">
+                                    <div class="product-block premium-card">
+                                        <h3>Dosage Forms</h3>
+
+                                        <div class="product-grid">
+                                            <div class="product-item">
+                                                <img src="/vearth_theme/static/images/vearth_powder.png"/>
+                                                <span>Powders</span>
+                                            </div>
+
+                                            <div class="product-item">
+                                                <img src="/vearth_theme/static/images/veg_capsule.png"/>
+                                                <span>Veg Capsules</span>
+                                            </div>
+
+                                            <div class="product-item">
+                                                <img src="/vearth_theme/static/images/sachet.png"/>
+                                                <span>Sachets</span>
+                                            </div>
+                                        </div>
+
+                                        <a href="/manufacturing#dosage" class="section-cta">Explore More →</a>
+                                    </div>
+                                </div>
+
+                                <!-- Packaging -->
+                                <div class="col-lg-6">
+                                    <div class="product-block premium-card">
+                                        <h3>Packaging</h3>
+
+                                        <div class="product-grid">
+                                            <div class="product-item">
+                                                <img src="/vearth_theme/static/images/jar_packag.png"/>
+                                                <span>Bottles &amp; Jars</span>
+                                            </div>
+
+                                            <div class="product-item">
+                                                <img src="/vearth_theme/static/images/standup_pouch_package.png"/>
+                                                <span>Stand-Up Pouches</span>
+                                            </div>
+
+                                            <div class="product-item">
+                                                <img src="/vearth_theme/static/images/sachet_packages.png"/>
+                                                <span>Sachets</span>
+                                            </div>
+                                        </div>
+
+                                        <a href="/manufacturing#packaging" class="section-cta">Explore More →</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                     <section class="vearth-category-section ultra-category insane-ui dark-primary scroll-animate">
+
+                        <div class="container text-center">
+
+                            <h2 class="category-title gradient-title">Categories We Support</h2>
+                            <p class="category-subtitle">
+                                We manufacture nutraceuticals for all major health categories
+                            </p>
+
+                        </div>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel-track" id="categoryCarousel">
+
+                                <!-- SAME CARDS -->
+                                <div class="category-card">
+                                    <img src="/vearth_theme/static/images/immunity.png"/>
+                                    <div class="category-overlay"><a href="/products#solutions"> <span>Immunity</span></a></div>
+                                </div>
+
+                                <div class="category-card">
+                                    <img src="/vearth_theme/static/images/gut_health_2.png"/>
+                                    <div class="category-overlay"><a href="/products#weight"><span>Gut Health</span></a></div>
+                                </div>
+
+                                <div class="category-card">
+                                    <img src="/vearth_theme/static/images/hair_nail_skin.png"/>
+                                    <div class="category-overlay"><a href="/products#skin"><span>Hair, Skin &amp; Nails</span></a></div>
+                                </div>
+
+                                <div class="category-card">
+                                    <img src="/vearth_theme/static/images/energy.png"/>
+                                    <div class="category-overlay"><a href="/products#beverages"><span>Energy &amp; Vitality</span></a></div>
+                                </div>
+
+                                <div class="category-card">
+                                    <img src="/vearth_theme/static/images/sports.png"/>
+                                    <div class="category-overlay"><a href="/products#preworkout"><span>Sports Nutrition</span></a></div>
+                                </div>
+
+                                <div class="category-card">
+                                    <img src="/vearth_theme/static/images/woman_health.png"/>
+                                    <div class="category-overlay"><a href="/products#women"><span>Women’s Health</span></a></div>
+                                </div>
+
+                                <div class="category-card">
+                                    <img src="/vearth_theme/static/images/Men_health.png"/>
+                                    <div class="category-overlay"><a href="/products#general"><span>Men’s Health</span></a></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+</section>
+
+                     <section class="vearth-difference dark-soft scroll-animate">
+                        <div class="container">
+
+                            <div class="difference-header">
+                                <h2>What Makes Us Different</h2>
+                                <p>Where science, quality, and transparency come together</p>
+                            </div>
+
+                            <div class="difference-flow">
+
+                                <div class="diff-chip">Science-backed formulations</div>
+                                <div class="diff-chip">100% Veg Capsules</div>
+                                <div class="diff-chip">Clean-label philosophy</div>
+                                <div class="diff-chip">Transparent ingredient sourcing</div>
+                                <div class="diff-chip">Customized private-label solutions</div>
+                                <div class="diff-chip">Low MOQs for emerging brands</div>
+                                <div class="diff-chip">GMP • FSSAI • HACCP • HALAL Facility</div>
+
+                            </div>
+
+                        </div>
+                    </section>
+
+                     <section class="vearth-manufacturing dark-accent premium-mfg scroll-animate">
+
+                        <div class="container">
+
+                            <div class="manufacturing-header">
+                                <h2>Manufacturing Excellence</h2>
+                                <p>Precision-driven production powered by science, compliance, and innovation</p>
+                            </div>
+
+                            <div class="row g-4">
+
+                                <!-- Card -->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="mfg-card">
+                                        <div class="mfg-icon">
+                                            <i class="fa fa-industry"/>
+                                        </div>
+                                        <h4>Manufacturing Capabilities</h4>
+                                        <p>Advanced infrastructure built for scalable nutraceutical production.</p>
+                                        <a href="/manufacturing">More Details →</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="mfg-card">
+                                        <div class="mfg-icon">
+                                            <i class="fa fa-flask"/>
+                                        </div>
+                                        <h4>Dosage Forms</h4>
+                                        <ul>
+                                            <li>Powders</li>
+                                            <li>Veg Capsules</li>
+                                            <li>Sachets</li>
+                                        </ul>
+                                        <a href="/manufacturing#dosage">More Details →</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="mfg-card">
+                                        <div class="mfg-icon">
+                                            <i class="fa fa-check-circle"/>
+                                        </div>
+                                        <h4>Quality Standards</h4>
+                                        <p>GMP, FSSAI, HACCP &amp; HALAL certified systems ensuring excellence.</p>
+                                        <a href="/manufacturing#quality">More Details →</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="mfg-card">
+                                        <div class="mfg-icon">
+                                            <i class="fa fa-lightbulb-o"/>
+                                        </div>
+                                        <h4>Research &amp; Innovation</h4>
+                                        <p>Continuous R&amp;D delivering next-gen formulations.</p>
+                                        <a href="/manufacturing#rnd">More Details →</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                 </div>
+            </t>
+  </template>
+</odoo>

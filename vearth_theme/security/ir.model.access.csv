@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_vearth_theme_vearth_theme,vearth_theme.vearth_theme,model_vearth_theme_vearth_theme,base.group_user,1,1,1,1
