@@ -11,7 +11,7 @@
                     <div class="col-lg-4 col-md-6 col-12 footer-about">
 
                         <a href="/" class="o_footer_logo logo">
-                            <img t-att-src="'%s/logo.png?company=%s' % (base_url, website.company_id.id)"
+                            <img t-att-src="'%s/logo.png?company=%s' % (website.domain, website.company_id.id)"
                                  class="footer-logo img-fluid"
                                  role="img"/>
                         </a>

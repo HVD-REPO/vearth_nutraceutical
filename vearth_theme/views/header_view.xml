@@ -39,7 +39,7 @@
 
                     <!-- LOGO -->
                     <a class="navbar-brand" href="/">
-                        <img t-att-src="'%s/logo.png?company=%s' % (base_url, website.company_id.id)" class="logo-img"/>
+                            <img t-att-src="'%s/logo.png?company=%s' % (website.domain, website.company_id.id)" class="logo-img"/>
                     </a>
 
                     <!-- TOGGLE -->
