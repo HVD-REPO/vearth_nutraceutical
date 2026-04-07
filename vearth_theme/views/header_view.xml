@@ -1,6 +1,6 @@
 <odoo>
 
-<template id="custom_theme_header" inherit_id="website.layout" name="Premium Header Vearth">
+<template id="custom_theme_header" inherit_id="portal.frontend_layout" name="Premium Header Vearth">
 
     <xpath expr="//header" position="replace">
 
