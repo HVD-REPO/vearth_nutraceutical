@@ -11,7 +11,7 @@
                     <div class="col-lg-4 col-md-6 col-12 footer-about">
 
                         <a href="/" class="o_footer_logo logo">
-                            <img t-att-src="'%s/logo.png?company=%s' % (website.domain, website.company_id.id)"
+                            <img t-att-src="'%s/logo.png?company=%s' % (base_url, website.company_id.id)"
                                  class="footer-logo img-fluid"
                                  role="img"/>
                         </a>
@@ -62,8 +62,9 @@
                     <div class="col-lg-3 col-md-6 col-12">
                         <h6 class="footer-title">Contact</h6>
                         <p class="footer-text">
-                            📍 <t t-out="website.company_id.street"/> <br/>
-                            <t t-out="website.company_id.street2"/>,  <t t-out="website.company_id.city"/> 382330 <br/>
+                            📍 <t t-out="website.company_id.street"/><br/>
+                            <t t-out="website.company_id.street2"/>, <t t-out="website.company_id.city"/> ,<t t-out="website.company_id.zip"/> <br/>
+                            <t t-out="website.company_id.state_id.name"/>, <t t-out="website.company_id.country_id.name"/> <br/>
                             📞 <t t-out="website.company_id.phone"/> <br/>
                             ✉ <t t-out="website.company_id.email"/>
                         </p>

@@ -2,7 +2,7 @@
         <template id="vearth_manufacturing_page"  name="About Us - Vearth Nutraceutical">
             <t t-call="website.template_header_hamburger">
                 <section class="vearth-hero-slider">
-    
+
                     <div class="hero-track" id="heroSlider">
 
                         <!-- Slide 1 -->
@@ -124,7 +124,7 @@
                 <li>
                     <img src="/vearth_theme/static/images/ors_blend_sachets.png" class="list-img"/>
                     <div>
-                        <strong>ORS Blends</strong>
+                        <strong>Flavoured Blend</strong>
                         <p>Electrolyte hydration support</p>
                     </div>
                 </li>
@@ -136,50 +136,54 @@
 </section>
 
     <!-- ================= PACKAGING ================= -->
-    <section id="packaging" class="dark-soft scroll-section">
+  <section id="packaging" class="dark-soft scroll-section scroll-animate">
 
-        <h2 class="section-title">Packaging Solutions</h2>
-        <p class="section-subtitle">
-            Designed for product safety, branding impact and shelf excellence.
-        </p>
+    <h2 class="section-title">Packaging Solutions</h2>
+    <p class="section-subtitle">
+        Designed for product safety, branding impact and shelf excellence.
+    </p>
 
-        <div class="packaging-layout">
+    <div class="pack-grid">
 
-            <div class="card-grid">
-                <div class="pack-card">
-                    <img src="/vearth_theme/static/images/bottle_packaging.png" class="pack-img"/>
-                    <h4>Bottles</h4>
-                    <p>HDPE &amp; PET pharma-grade containers</p>
-                </div>
-
-                <div class="pack-card">
-                    <img src="/vearth_theme/static/images/jar_packagin_2.png" class="pack-img"/>
-                    <h4>Jars</h4>
-                    <p>Wide mouth premium supplement jars</p>
-                </div>
-
-                <div class="pack-card">
-                    <img src="/vearth_theme/static/images/standup_pouch_packaging.png" class="pack-img"/>
-                    <h4>Stand-Up Pouches</h4>
-                    <p>Moisture protected zip-lock packs</p>
-                </div>
-
-                <div class="pack-card">
-                    <img src="/vearth_theme/static/images/sachet_packages_2.png" class="pack-img"/>
-                    <h4>Sachets</h4>
-                    <p>Single dose convenience packaging</p>
-                </div>
-            </div>
-
-            <div class="pack-visual">
-                <img src="/vearth_theme/static/images/green_bottle_packaging.png"/>
-            </div>
-
+    <div class="pack-float">
+        <div class="pack-card">
+            <img src="/vearth_theme/static/images/bottle_packaging.png" class="pack-img"/>
+            <h4>Bottles</h4>
+            <p>HDPE &amp; PET pharma-grade containers</p>
         </div>
-    </section>
+    </div>
+
+    <div class="pack-float">
+        <div class="pack-card">
+            <img src="/vearth_theme/static/images/jar_packagin_2.png" class="pack-img"/>
+            <h4>Jars</h4>
+            <p>Wide mouth premium supplement jars</p>
+        </div>
+    </div>
+
+    <div class="pack-float">
+        <div class="pack-card">
+            <img src="/vearth_theme/static/images/standup_pouch_packaging.png" class="pack-img"/>
+            <h4>Stand-Up Pouches</h4>
+            <p>Moisture protected zip-lock packs</p>
+        </div>
+    </div>
+
+    <div class="pack-float">
+        <div class="pack-card">
+                <img src="/vearth_theme/static/images/sachet_packages_2.png" class="pack-img"/>
+            <h4>Sachets</h4>
+            <p>Single dose convenience packaging</p>
+        </div>
+    </div>
+
+</div>
+
+</section>
 
     <!-- ================= QUALITY ================= -->
     <section id="quality" class="dark-primary scroll-section">
+        <canvas id="qualityCanvas"></canvas>
 
         <h2 class="section-title">Quality Standards</h2>
         <p class="section-subtitle">
@@ -209,19 +213,19 @@
             </div>
 
         </div>
-
-        <div class="quality-process">
-            <div class="process-step">Raw Material Testing</div>
-            <div class="process-step">COA Verification</div>
-            <div class="process-step">Batch Traceability</div>
-            <div class="process-step">SOP Controlled Production</div>
-        </div>
+        <div class="quality-flow">
+    <div class="flow-step">Raw Material Testing</div>
+    <div class="flow-step">COA Verification</div>
+    <div class="flow-step">Batch Traceability</div>
+    <div class="flow-step">SOP Controlled Production</div>
+    <div class="flow-step">Finished Product Testing</div>
+</div>
     </section>
 
     <!-- ================= R&D ================= -->
     <section id="rnd" class="scroll-section dark-soft rnd-section">
 
-    <h2 class="section-title">Research &amp; Innovation</h2>
+    <h2 class="section-title">Research &amp; Development</h2>
     <p class="section-subtitle">
         Continuous development powered by science and formulation expertise.
     </p>
