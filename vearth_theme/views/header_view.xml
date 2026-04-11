@@ -39,7 +39,7 @@
 
                     <!-- LOGO -->
                     <a class="navbar-brand" href="/">
-                            <img t-att-src="'%s/logo.png?company=%s' % (website.domain, website.company_id.id)" class="logo-img"/>
+                        <img t-att-src="'%s/logo.png?company=%s' % (website.domain, website.company_id.id)" class="logo-img"/>
                     </a>
 
                     <!-- TOGGLE -->
@@ -91,19 +91,17 @@
                                 </div>
                             </li>
 
-                            <li class="nav-item"><a class="nav-link" href="/contactus">Contact</a></li>
-
                         </ul>
 
                         <!-- USER -->
-                        <div class="d-flex">
+<!--                        <div class="d-flex">-->
 
-                            <t t-call="portal.placeholder_user_sign_in">
-                                <t t-set="_item_class" t-value="'nav-item ms-3'"/>
-                                <t t-set="_link_class" t-value="'nav-link text-white'"/>
-                            </t>
+<!--                            <t t-call="portal.placeholder_user_sign_in">-->
+<!--                                <t t-set="_item_class" t-value="'nav-item ms-3'"/>-->
+<!--                                <t t-set="_link_class" t-value="'nav-link text-white'"/>-->
+<!--                            </t>-->
 
-                        </div>
+<!--                        </div>-->
 
                     </div>
 

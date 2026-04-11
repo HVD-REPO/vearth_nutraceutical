@@ -1,17 +1,18 @@
 {
     "name": "Vearth Nutraceuticles Website",
-    "version": "1.0",
+    "version": "19.0.1.1.0",
     "category": "Website",
     "summary": "Official Website for Vearth Nutraceuticles",
     "depends": ["web","website"],
     "data": [
+        "views/header_view.xml",
+        "views/footer_view.xml",
         "views/about_vearth_view.xml",
         "views/home_page_view.xml",
         "views/manufacturing_page_view.xml",
         "views/service_and_catrgory_view.xml",
         "views/product_page_view.xml",
-        "views/footer_view.xml",
-        "views/header_view.xml",
+
     ],
     "assets": {
         "web.assets_frontend": [

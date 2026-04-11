@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="section-title">Our Mission</h2>
+                    <h2 class="section-title">Our Principles</h2>
 
                     <p>
                         We empower nutraceutical brands with world-class manufacturing
@@ -134,6 +134,82 @@
             </p>
         </div>
     </section>
+
+                    <section class="vearth-why-ai scroll-animate">
+
+    <!-- glowing background -->
+    <div class="ai-bg-glow"></div>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="why-header text-center">
+            <h2 class="ai-title">Why Choose VEARTH</h2>
+            <p class="ai-subtitle">
+                Next-generation nutraceutical manufacturing powered by science,
+                transparency and innovation.
+            </p>
+        </div>
+
+        <div class="ai-layout">
+
+            <!-- LEFT TEXT -->
+            <div class="ai-text">
+                <p>
+                    <strong>Wellness engineered through science.</strong>
+                </p>
+
+                <p>
+                    VEARTH is built on a simple belief — supplements should be
+                    real, effective, and scientifically validated.
+                </p>
+
+                <p>
+                    We help brands scale with precision manufacturing,
+                    premium ingredients and unmatched reliability.
+                </p>
+            </div>
+
+            <!-- RIGHT CARDS -->
+            <div class="ai-cards">
+
+                <div class="ai-card">
+                    <i class="fa fa-eye"></i>
+                    <span>Transparent Manufacturing</span>
+                </div>
+
+                <div class="ai-card">
+                    <i class="fa fa-leaf"></i>
+                    <span>Ethical &amp;  Clean Sourcing</span>
+                </div>
+
+                <div class="ai-card">
+                    <i class="fa fa-truck"></i>
+                    <span>Reliable Delivery Timelines</span>
+                </div>
+
+                <div class="ai-card">
+                    <i class="fa fa-globe"></i>
+                    <span>Premium Global Ingredients</span>
+                </div>
+
+                <div class="ai-card">
+                    <i class="fa fa-flask"></i>
+                    <span>Scientific Formulations</span>
+                </div>
+
+                <div class="ai-card">
+                    <i class="fa fa-comments"></i>
+                    <span>Customer First Approach</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
     <!-- ================= FOUNDER ================= -->
     <section class="founder-section scroll-animate">
 

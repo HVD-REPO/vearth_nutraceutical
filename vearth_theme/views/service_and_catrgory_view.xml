@@ -10,7 +10,7 @@
 
                         <!-- Slide 1 -->
                         <div class="hero-slide">
-                            <img src="/vearth_theme/static/images/b2b_services.png"/>
+                                <img src="/vearth_theme/static/images/b2b_services.png"/>
                         </div>
 
 
@@ -38,7 +38,7 @@
 
     <!-- ================= CATEGORY GRID ================= -->
 
-    <section class="category-section scroll-animate">
+    <section class="category-section">
         <div class="container">
         <h2 class="section-title center">
             Nutraceutical Health Categories

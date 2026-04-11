@@ -227,3 +227,162 @@ body.dark-mode .vm-card:hover {
     box-shadow: 0 20px 60px rgba(34,197,94,0.25);
     transform: translateY(-6px);
 }
+
+
+
+
+
+
+
+
+/* ===== SECTION BASE ===== */
+.vearth-why-ai {
+    position: relative;
+    padding: 110px 0;
+    background: linear-gradient(135deg,#ecfdf5,#f0fdf4);
+    overflow: hidden;
+}
+
+/* ===== GLOW BACKGROUND ===== */
+.ai-bg-glow {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(34,197,94,0.25), transparent);
+    top: -120px;
+    left: -120px;
+    filter: blur(100px);
+    z-index: 0;
+}
+
+/* ===== CONTENT ABOVE ===== */
+.vearth-why-ai .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* ===== TITLE ===== */
+.ai-title {
+    font-size: 42px;
+    font-weight: 800;
+    background: linear-gradient(90deg,#16a34a,#22c55e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ai-subtitle {
+    color: #475569;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* ===== LAYOUT ===== */
+.ai-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-top: 70px;
+    align-items: center;
+}
+
+/* ===== TEXT ===== */
+.ai-text {
+    color: #334155;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* ===== CARD GRID ===== */
+.ai-cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+/* ===== CARD ===== */
+.ai-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 18px 20px;
+    border-radius: 16px;
+
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(34,197,94,0.2);
+
+    font-weight: 600;
+    color: #065f46;
+
+    transition: all .4s ease;
+    position: relative;
+    overflow: hidden;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* ICON */
+.ai-card i {
+    font-size: 18px;
+    color: #16a34a;
+    min-width: 22px;
+}
+
+/* ===== HOVER EFFECT ===== */
+.ai-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 25px 60px rgba(34,197,94,.25);
+}
+
+/* ===== GLOW BORDER ===== */
+.ai-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    background: linear-gradient(120deg,#22c55e,#16a34a) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    opacity: 0;
+    transition: .4s;
+}
+
+.ai-card:hover::after {
+    opacity: 1;
+}
+
+/* ===== FLOATING ANIMATION ===== */
+.ai-card {
+    animation: floatAI 6s ease-in-out infinite;
+}
+
+.ai-card:nth-child(odd) { animation-delay: 1s; }
+.ai-card:nth-child(even) { animation-delay: 3s; }
+
+@keyframes floatAI {
+    0%,100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+}
+
+/* ===== SCROLL ANIMATION FIX ===== */
+.vearth-why-ai {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px){
+    .ai-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .ai-cards {
+        grid-template-columns: 1fr;
+    }
+}
