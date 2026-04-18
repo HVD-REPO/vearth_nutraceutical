@@ -250,6 +250,33 @@ loadTheme() {
     }
 }
 
+
+
+handleCompositionToggle() {
+    document.querySelectorAll(".product-card").forEach(card => {
+
+        const btn = card.querySelector(".toggle-btn");
+        const extras = card.querySelectorAll(".extra");
+
+        if (!btn || extras.length === 0) {
+            if (btn) btn.style.display = "none";
+            return;
+        }
+
+        let expanded = false;
+
+        btn.addEventListener("click", () => {
+            expanded = !expanded;
+
+            extras.forEach(el => {
+                el.style.display = expanded ? "list-item" : "none";
+            });
+
+            btn.innerText = expanded ? "Show Less" : "Show More";
+        });
+    });
+}
+
     /**
      * Main start function
      */
@@ -277,6 +304,7 @@ loadTheme() {
         this.handleSidebarVisibility();
         this.nevigateToSection();
         this.handleActiveMenu();
+        // this.handleCompositionToggle()
 
     }
 }

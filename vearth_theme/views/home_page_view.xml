@@ -105,12 +105,12 @@
                                 <!-- SAME CARDS -->
                                 <div class="category-card">
                                     <img src="/vearth_theme/static/images/immunity.png"/>
-                                    <div class="category-overlay"><a href="/products#solutions"> <span>Immunity</span></a></div>
+                                    <div class="category-overlay"><a href="/products#immunity"> <span>Immunity</span></a></div>
                                 </div>
 
                                 <div class="category-card">
                                     <img src="/vearth_theme/static/images/gut_health_2.png"/>
-                                    <div class="category-overlay"><a href="/products#weight"><span>Gut Health</span></a></div>
+                                    <div class="category-overlay"><a href="/products#gut-care"><span>Gut Health</span></a></div>
                                 </div>
 
                                 <div class="category-card">
@@ -121,7 +121,7 @@
                                 <div class="category-card">
                                         <img src="/vearth_theme/static/images/energy.png"/>
 
-                                    <div class="category-overlay"><a href="/products#beverages"><span>Energy &amp; Vitality</span></a></div>
+                                    <div class="category-overlay"><a href="/products#vitality"><span>Vitality</span></a></div>
                                 </div>
 
                                 <div class="category-card">
