@@ -104,10 +104,10 @@
     transition:.35s ease;
 }
 
-.category-card img{
+.category-section .category-card img{
     width:100%;
 
-    object-fit:cover;
+    object-fit:unset !important;
 }
 
 .category-card h4{

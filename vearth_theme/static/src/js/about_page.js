@@ -241,6 +241,18 @@ class AboutVearthPage extends Interaction {
         sections.forEach(section => observer.observe(section));
     }
 
+
+
+    handleCursorLight() {
+    const light = document.getElementById("cursorLight");
+    if (!light) return;
+
+    document.addEventListener("mousemove", (e) => {
+        light.style.left = e.clientX + "px";
+        light.style.top = e.clientY + "px";
+    });
+}
+
     // ================= START =================
     start() {
         document.body.classList.remove('no-js');
@@ -249,6 +261,7 @@ class AboutVearthPage extends Interaction {
         this.paralax_effect();
         this.handleActiveMenu();
         this.handleFooterCollapse();
+        this.handleCursorLight();
 
         const track = document.getElementById("categoryCarousel");
 
