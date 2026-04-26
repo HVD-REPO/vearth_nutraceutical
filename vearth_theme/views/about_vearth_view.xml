@@ -211,9 +211,52 @@
 
 </section>
     <!-- ================= FOUNDER ================= -->
-    <section class="founder-section scroll-animate">
+<!--    <section class="founder-section scroll-animate">-->
 
-        <video class="founder-video"
+<!--        <video class="founder-video"-->
+<!--       autoplay="autoplay"-->
+<!--       muted="muted"-->
+<!--       loop="loop"-->
+<!--       playsinline="playsinline">-->
+<!--            <source src="/vearth_theme/static/videos/Video_Not_Showing_Correctly.mp4" type="video/mp4"/>-->
+<!--        </video>-->
+
+<!--        <div class="founder-overlay">-->
+<!--            <div class="container">-->
+<!--                <div class="founder-content">-->
+
+<!--                    <img src="/vearth_theme/static/images/founder.JPG"-->
+<!--                         class="founder-photo"/>-->
+
+<!--                    <div>-->
+<!--                        <p class="founder-quote">-->
+<!--                            “At VEARTH Nutraceutical, we combine the purity of nature with-->
+<!--                            the precision of modern science. Our commitment is simple —-->
+<!--                            build products that genuinely make a difference.”-->
+<!--                        </p>-->
+<!--                        <p>-->
+<!--                            Our founder is M. Pharm in Pharmaceutics from NMIMS University, Mumbai.-->
+<!--                            He has Completed his education in 2010. He has total 14+ years of experience in Pharmaceutical and-->
+<!--                            Nutraceutical Industry in different departments like Formulation Development, Project management, Process Development,-->
+<!--                            Scale up and Technology Transfer, Contract manufacturing. He has worked for companies like Evonik India Pvt Ltd,-->
+<!--                            Alembic Pharmaceuticals Pvt Ltd, Cipla Ltd, Simpl Innovative Brands Pvt Ltd, Nutralike Healthcare and Sankalp Lifecare Pvt Ltd.-->
+<!--                        </p>-->
+
+<!--                        <h4>Ashishkumar Shah</h4>-->
+<!--                        <small>Founder</small>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--    </section>-->
+
+
+                   <section class="founder-section ultra scroll-animate">
+
+    <!-- VIDEO -->
+            <video class="founder-video"
        autoplay="autoplay"
        muted="muted"
        loop="loop"
@@ -221,29 +264,121 @@
             <source src="/vearth_theme/static/videos/Video_Not_Showing_Correctly.mp4" type="video/mp4"/>
         </video>
 
-        <div class="founder-overlay">
-            <div class="container">
-                <div class="founder-content">
+    <div class="founder-overlay"></div>
+    <div class="cursor-light" id="cursorLight"></div>
 
-                    <img src="/vearth_theme/static/images/logo.png"
-                         class="founder-photo"/>
+    <div class="container">
+<!--        <div class="founder-wrapper ultra-card">-->
 
-                    <div>
-                        <p class="founder-quote">
-                            “At VEARTH Nutraceutical, we combine the purity of nature with
-                            the precision of modern science. Our commitment is simple —
-                            build products that genuinely make a difference.”
-                        </p>
+<!--            &lt;!&ndash; IMAGE &ndash;&gt;-->
+<!--            <div class="founder-image-box premium-image">-->
+<!--                <img src="/vearth_theme/static/images/founder.JPG"-->
+<!--                     class="founder-photo"/>-->
+<!--            </div>-->
 
-                        <h4>Ashishkumar Shah</h4>
-                        <small>Founder</small>
+<!--            &lt;!&ndash; TEXT &ndash;&gt;-->
+<!--            <div class="founder-text">-->
+
+<!--                <h2 class="founder-title gradient-text">-->
+<!--                    Founder’s Vision-->
+<!--                </h2>-->
+
+<!--                &lt;!&ndash; QUOTE &ndash;&gt;-->
+<!--                <p class="founder-quote">-->
+<!--                    “At VEARTH Nutraceutical, we combine the purity of nature with-->
+<!--                    the precision of modern science. Our commitment is simple —-->
+<!--                    build products that genuinely make a difference.”-->
+<!--                </p>-->
+
+<!--                &lt;!&ndash; EXPERIENCE BLOCK &ndash;&gt;-->
+<!--                <div class="founder-highlight">-->
+<!--                    <span>14+ Years Experience</span>-->
+<!--                    <span>Pharma &amp; Nutraceutical Expert</span>-->
+<!--                    <span>M. Pharm (NMIMS)</span>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; FULL DESCRIPTION &ndash;&gt;-->
+<!--                <p class="founder-desc">-->
+<!--                    Our founder holds a Master of Pharmacy (M. Pharm) in Pharmaceutics-->
+<!--                    from NMIMS University, Mumbai (2010) and brings over 14+ years of-->
+<!--                    experience in the pharmaceutical and nutraceutical industry.-->
+<!--                </p>-->
+
+<!--                <p class="founder-desc">-->
+<!--                    His expertise spans across formulation development, project management,-->
+<!--                    process development, scale-up, technology transfer, and contract manufacturing,-->
+<!--                    ensuring precision-driven product innovation and execution.-->
+<!--                </p>-->
+
+<!--                <p class="founder-desc">-->
+<!--                    He has contributed to leading organizations including Evonik India Pvt Ltd,-->
+<!--                    Alembic Pharmaceuticals Pvt Ltd, Cipla Ltd, Simpl Innovative Brands Pvt Ltd,-->
+<!--                    Nutralike Healthcare, and Sankalp Lifecare Pvt Ltd.-->
+<!--                </p>-->
+
+<!--                <h4 class="founder-name">Ashishkumar Shah</h4>-->
+<!--                <span class="founder-role">Founder</span>-->
+
+<!--            </div>-->
+
+<!--        </div>-->
+
+
+
+                    <div class="founder-wrapper ultra-card two-col-layout">
+
+                <!-- IMAGE SIDE -->
+                <div class="founder-left">
+                    <div class="founder-image-box premium-image">
+                        <img src="/vearth_theme/static/images/founder.JPG"
+                             class="founder-photo"/>
+                    </div>
+                </div>
+
+                <!-- CONTENT SIDE -->
+                <div class="founder-right">
+
+                    <h2 class="founder-title gradient-text">
+                        Founder’s Vision
+                    </h2>
+
+                    <p class="founder-quote">
+                        “At VEARTH Nutraceutical, we combine the purity of nature with
+                        the precision of modern science. Our commitment is simple —
+                        build products that genuinely make a difference.”
+                    </p>
+
+                    <div class="founder-highlight">
+                        <span>14+ Years Experience</span>
+                        <span>Pharma Expert</span>
+                        <span>NMIMS Graduate</span>
                     </div>
 
-                </div>
-            </div>
-        </div>
+                    <p class="founder-desc">
+                        Our founder holds a Master of Pharmacy (M. Pharm) in Pharmaceutics
+                        from NMIMS University, Mumbai (2010) and brings over 14+ years
+                        of experience in the pharmaceutical and nutraceutical industry.
+                    </p>
 
-    </section>
+                    <p class="founder-desc">
+                        His expertise spans formulation development, project management,
+                        process development, scale-up, technology transfer, and contract manufacturing.
+                    </p>
+
+                    <p class="founder-desc">
+                        Worked with Evonik India, Alembic Pharmaceuticals, Cipla Ltd,
+                        Simpl Innovative Brands, Nutralike Healthcare, and Sankalp Lifecare.
+                    </p>
+
+                    <h4 class="founder-name">Ashishkumar Shah</h4>
+                    <span class="founder-role">Founder</span>
+
+                </div>
+
+            </div>
+    </div>
+
+</section>
 
 
 
